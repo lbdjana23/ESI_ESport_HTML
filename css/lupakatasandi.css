@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("Font/Product Sans Regular.ttf");
+  }
+  /* devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+  *,
+body {
+    font-family: "Product Sans";
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+  }
+  a {
+    color: #ec2028;
+  }
+  .contain {
+    border-radius: 24px !important;
+    width: 360px;
+    display: flex;
+    margin: 0 auto;
+    min-height: 640px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 85%;
+  }
+
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-style: bold;
+  }
+  .content h5 {
+    font-size: 14px;
+  }
+  .content p {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 14px;
+    color: #747D8C;
+    margin-top: -10%;
+  }
+  
+.content button{
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 8px 40%;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  background-color: #E4E5EA;
+ 
+}
+  .content button:hover {
+    background-color: #EC2028;
+    color: #fff;
+  }
+  .mobile-text {
+    color: #989696b8;
+    font-size: 15px;
+  }
+  
