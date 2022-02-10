@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url("Font/Product Sans Regular.ttf");
+  }
+  *,
+  body {
+    font-family: "Product Sans";
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+  }
+  a {
+    color: #ec2028;
+  }
+  
+  p{
+    font-size: 14px;
+    display: flex;
+  }
+
+  .contain {
+    border-radius: 24px !important;
+    width: 360px;
+    display: flex;
+    margin: 0 auto;
+    min-height: 640px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-style: bold;
+  }
+  
+  
+  
+  .content h5 {
+    font-size: 14px;
+    font-style: regular;
+  }
+  .content p {
+    font-size: 10px;
+  }
+  .content button{
+    max-width: 100%;
+    display: flex;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 8px 40%;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  background-color: #E4E5EA;
+  color: #747D8C;
+
+}
+
+h5{
+  font-size: 24px;
+  display: flex;
+}
+
+.content img{
+    display: flex;
+    width: 764px;
+    height: 267px;
+}
+  .content button:hover {
+    background-color: #EC2028;
+    color: #ffffff;
+  }
+  .mobile-text {
+    color: #989696b8;
+    font-size: 15px;
+  }
+  
+ 
+  
+ 
+  
