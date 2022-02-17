@@ -1,0 +1,181 @@
+
+@font-face {
+    font-family: "Product Sans";
+    src: url("Font/Product Sans Regular.ttf");
+  }
+  /* devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .input-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+  }
+  *,
+  body {
+    font-family: "Product Sans";
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+  }
+  
+  .contain {
+    border-radius: 24px !important;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    min-height: 640px;
+  }
+  .box{
+    margin: 10px 0px;
+    text-align: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .content h3{
+    color: #747D8C;
+    font-size: 14px;
+  }
+  .content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-style: bold;
+  }
+  .content h5 {
+    font-size: 14px;
+  }
+  .content p {
+    font-size: 10px;
+  }
+  .content button{
+    max-width: 100%;
+    display: flex;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 8px 40%;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  background-color: #E4E5EA;
+  
+  }
+  .content button:hover {
+    background-color: #EC2028;
+    color: #fff;
+  }
+  .mobile-text {
+    color: #989696b8;
+    font-size: 15px;
+  }
+.wrapper{
+  display: flex;
+  overflow-x: auto;
+}
+  .nav-link{
+      color: #ffffff;
+      margin-top: 5px;
+  }
+  h1{
+    color: #ffffff; 
+    font-size: 26px;
+    margin-top: 12px; 
+  }
+
+  p{
+    font-family: Product Sans;
+    font-size: 24px; 
+    color: #ffffff;
+  }
+  
+  h5{
+    color: #B0B0B0;
+     font-size: 14px;
+  }
+
+  h6{
+      font-family: Product Sans;
+    font-size: 11px; 
+    color: #ffffff;
+    
+  }
+  
+  
+  h2{
+    font-size: 16px;
+    font-family: Product Sans;
+    color: #000000;
+    
+  }
+
+  h3{
+    font-size: 11px;
+    font-family: Product Sans;
+    color: #B0B0B0;
+    
+  }
+  .panel{
+      display: flex;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+      border-radius: 5px;
+      margin-top: -59px;
+      background-color: #ffffff;
+      width: auto;
+      height: auto ;
+      padding: 10px;
+  }
+
+  .panel .img{
+    width: 20%;
+    height: 20%;
+  }
+  
+
+  .tombol{
+    display: flex;
+    border-radius: 16px;
+    font-size: 12px;
+    font-family: Product Sans;
+    color: #1E272E;
+    padding: 10px;
+    margin: 20px;
+    width: auto;
+    background-color: #F1F2F6;
+    
+  }
+  .test{
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .test::-webkit-scrollbar{
+    width: 0;
+  }
+  .tombol:hover {
+    background-color: #f3002036;
+    color: #F3001F;
+    
+  }
+
+  .panel p{
+      font-size: 10px;
+      color: #B0B0B0;
+      text-align: center;
+  }
+
+ 
