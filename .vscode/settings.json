@@ -1,0 +1,8 @@
+{
+    "window.closeWhenEmpty": true,
+    "search.experimental.searchInOpenEditors": true,
+    "search.maintainFileSearchCache": true,
+    "search.quickOpen.includeSymbols": true,
+    "search.searchEditor.reusePriorSearchConfiguration": true,
+    "debug.console.closeOnEnd": true
+}
