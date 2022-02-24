@@ -10,12 +10,10 @@
       flex-direction: row;
       justify-content: center;
     }
-    
   }
   
   /* // Medium devices (tablets, 768px and up) */
-  @media (max-width: 768px) {
-    
+  @media (min-width: 768px) {
   }
   
   /* // Large devices (desktops, 992px and up) */
@@ -88,8 +86,11 @@
 
   
   h1{
-    color: #ffffff; 
-    margin-top: 5px; 
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+color: #292D32;
   }
 
   p{
@@ -170,25 +171,7 @@ text-align: center;
 color: #292A2E;
 }
 
-.info-panel h4 {
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: normal;
-  text-align: center;
-  color: #B0B0B0;
-}
 
-.info-panel img{
-  width: auto;
-  height: auto;
-  align-items: center;
-}
-
-.info-panel p {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #acacac;
-}
   
   .sparing h2{
     font-family: Product Sans;
@@ -204,13 +187,6 @@ color: #292A2E;
     color: #B0B0B0;
 
   }
-  .modal-dialog {
-    position:fixed;
-    top:auto;
-    right:auto;
-    left:auto;
-    bottom:0;
- }  
 
   .tombol_sparing h3{
  
@@ -220,47 +196,7 @@ color: #292A2E;
   color: #747D8C;
 
   }
-/* modal */
 
-.modal-content hr{
-  width: 62px;
-  height: 6px;
-  background: #CED6E0;
-  border-radius: 3px;
-  }
-  
-  .modal-content h1{
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  color: #1E272E;
-  }
-  
-  .modal{
-  width: 360px;
-  height: 461px;
-  background: #FFFFFF;
-  border-radius: 24px;
-  
-  }
-  .modal-content label{
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #1E272E;
-  }
-  
-  .modal-content .browser-default{
-  
-  background: #FFFFFF;
-  border: 1px solid #CED6E0;
-  box-sizing: border-box;
-  border-radius: 4px;
-  }
-  /* Akhirr Moodal */
   .tombol_sparing{
     display: flex;
     justify-content: center;
@@ -270,12 +206,10 @@ color: #292A2E;
   }
 
   .conten{
-    background: linear-gradient(180deg, #A8091E 0%, #EC2028 100%);
-    border: 1px solid #F3001F;
-    box-sizing: border-box;
-    padding-bottom: 100px;
+    background: #FFFFFF;
+    border-radius: 24px;
   }
-
+  
   .lain a{
     position: absolute;
     font-family: Product Sans;
@@ -296,14 +230,46 @@ color: #292A2E;
     color: #F3001F;
   }
 
+  .dropdown a{
+    color: #FFFFFF;
+  }
+  
+  .dropdown-menu{
+
+background: #F1F2F6;
+border-radius: 4px;
+  }
+
+  .dropdown-item {
+    
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+align-items: center;
+color: #1E272E;
+
+
+  }
   .navbar{
     background: #FFFFFF;
     box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 24px 24px; 
   }
- 
 
-/*   
+  .anggota h2{
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+color: #1E272E;
+  }
+  .anggota h3{
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+color: #1E272E;
+  }
+  
   .modal-dialog{
     left: 25%;
     width: 50%;
@@ -313,57 +279,31 @@ color: #292A2E;
     bottom:0;
     margin:0;
 }
-.modal-content{
-  margin-left: 60px;
-  border: none;
-  width: 360px;
-height: 461px;
-
-}
-.modal-body hr{
-  
-  width: 62px;
-  height: 6px;
-  left: 149px;
-  top: 258px;
-  background: #CED6E0;
-}
-
-.modal-body h1{
-
-font-family: Product Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 24px;
-color: #1E272E;
-
-} */
-  .tombol{
+.tombol{
    
  
-    align-items: center;
-    width: auto;
-    height: auto;
-    background: #F1F2F6;
-    border-radius: 16px;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: bold;
-    align-items: center;
-    color: #1E272E;
-  }
- 
-  .tombol:hover {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: bold;
-    align-items: center;
-    color: #F3001F;
-    align-items: center;
-    background: rgba(243, 0, 31, 0.1);
-    border-radius: 16px;
-  }
+  align-items: center;
+  width: auto;
+  height: auto;
+  background: #F1F2F6;
+  border-radius: 16px;
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  color: #1E272E;
+}
+
+.tombol:hover {
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  align-items: center;
+  color: #F3001F;
+  align-items: center;
+  background: rgba(243, 0, 31, 0.1);
+  border-radius: 16px;
+}
 
   /* .card{
     border: none;

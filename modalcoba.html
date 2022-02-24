@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link rel="stylesheet" href="css/mdal.css">      
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+      <!-- Modal Trigger -->
+     <button class="btn modal-trigger  " data-target="come" class="tombol_sparing" style=" display: flex;justify-content: center;align-items: center;background: #E4E5EA; color: #747D8C;">Sparing</button>
+    
+     <div class="modal bottom-sheet" id="come">
+       <div class="modal-content">
+          <hr>
+          <h1 class="center">Sparing</h1>
+
+          <form>
+            <label>Pilih permainan</label>
+            <select class="browser-default">
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">Option 1</option>
+              <option value="2">Option 2</option>
+              <option value="3">Option 3</option>
+            </select>
+                      
+          </form>
+       </div>
+     </div>
+
+     
+
+     <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        const box = document.querySelector(".modal");
+        M.Modal.init(box,{});
+      });
+   </script>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>

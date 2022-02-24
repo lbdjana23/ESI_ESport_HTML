@@ -1,0 +1,38 @@
+.modal-content hr{
+width: 62px;
+height: 6px;
+background: #CED6E0;
+border-radius: 3px;
+}
+
+.modal-content h1{
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+color: #1E272E;
+}
+
+.modal{
+width: 360px;
+height: 461px;
+background: #FFFFFF;
+border-radius: 24px;
+
+}
+.modal-content label{
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #1E272E;
+}
+
+.modal-content .browser-default{
+
+background: #FFFFFF;
+border: 1px solid #CED6E0;
+box-sizing: border-box;
+border-radius: 4px;
+}
