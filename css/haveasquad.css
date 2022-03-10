@@ -1,391 +1,324 @@
-
-@font-face {
-    font-family: "Product Sans";
-    src: url("Font/Product Sans Regular.ttf");
-  }
-  /* devices (landscape phones, 576px and up) */
-  @media (min-width: 576px) {
-    .input-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    
-  }
-  
-  /* // Medium devices (tablets, 768px and up) */
-  @media (max-width: 768px) {
-    
-  }
-  
-  /* // Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-  }
-  
-  /* // Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-  }
-  *,
-  body {
-    font-family: "Product Sans";
+* {
     margin: 0;
     padding: 0;
     text-decoration: none !important;
     list-style-type: none !important;
   }
-  
-  .contain {
-    border-radius: 24px !important;
-    width: 100%;
-    display: flex;
-    margin: 0 auto;
-    min-height: 640px;
+  /* Banner */
+  .konten {
+    background: linear-gradient(to bottom, #A8091E, #EC2028 );
+    border: 1px solid #F3001F;
+    box-sizing: border-box;
   }
-  .box{
-    margin: 10px 0px;
-    text-align: center;
+  .konten img{
+    width: 35px;
+  }
+  .konten .img1{
+    border-radius: 50%; 
+    width: 150px;  
+    height: 150px;
+  }
+  .konten .img_2{
+    width: 30px;
   }
   .content {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 100%;
-  }
-  .content h3{
-    color: #747D8C;
-    font-size: 14px;
-  }
-  .content h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-    font-style: bold;
-  }
-  .content h5 {
-    font-size: 14px;
-  }
-  .content p {
-    font-size: 10px;
-  }
-  .content button{
-    max-width: 100%;
-    display: flex;
-  margin: 0 auto;
-  font-size: 14px;
-  padding: 8px 40%;
-  border-radius: 4px;
-  margin-bottom: 40px;
-  background-color: #E4E5EA;
-  
-  }
-  .content button:hover {
-    background-color: #EC2028;
-    color: #fff;
-  }
-  .mobile-text {
-    color: #989696b8;
-    font-size: 15px;
+    padding-top: 25px;
   }
 
-  
-  h1{
-    color: #ffffff; 
-    margin-top: 5px; 
-  }
-
-  p{
-    font-family: Product Sans;
-    font-size: 30px; 
-    color: #ffffff;
-  }
-
-  .img_1{
-    border-radius: 100%; 
-    width: 53px; 
-    height: 53px; 
-    margin-left: auto; 
-    margin-top: 30px;
-  }
-
-
-  h5{
-    color: #B0B0B0;
-  }
-
-  h6{
-      font-family: Product Sans;
-    
-    color: #ffffff;
-    
-  }
-  
-  
-  h2{
-
-    font-family: Product Sans;
-    color: #000000;
-    
-  }
-
-  h3{
-    font-family: Product Sans;
-    color: #B0B0B0;
-    
-  }
-  
-  .search h2{
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: bold;
-    color: #000000;
-  }
-
-  .search h5{
+  .konten h1{
     font-family: Product Sans;
     font-style: normal;
     font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .konten h2{  
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: bold;
+    margin-left:15px;
+    color: #FFFFFF;
+  }
+
+
+  .konten h3{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    margin-left: 14px;
     color: #B0B0B0;
   }
-
-  .search img{
-    width: 50px;
-    height: 50px;
+  
+  .konten h4{
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #FFFFFF;
   }
-
-
-  /* Info Panel */
+/* Akhrir Banner */
+/* Info Panel */
 .info-panel {
-  padding: 5px;
-  width: auto;
-  top: -59px;
+  height: 100px;
   background: #FFFFFF;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
+  margin-top: -55px;
 }
 
-.navs a{
-font-family: Product Sans;
-font-style: normal;
-font-weight: normal;
-text-align: center;
-color: #292A2E;
-}
-
-.info-panel h4 {
+.info-panel h1{
+  width: 160px;
+  height: 44px;
   font-family: Product Sans;
   font-style: normal;
   font-weight: normal;
+  font-size: 30px;
+  line-height: 25px;
   text-align: center;
-  color: #B0B0B0;
-}
+  color: #B0B0B0; 
+  margin-left: 67px;
+  }
 
-.info-panel img{
-  width: auto;
-  height: auto;
-  align-items: center;
-}
-
-.info-panel p {
-  font-size: 14px;
-  font-weight: lighter;
-  color: #acacac;
-}
+  .info-panel img{
+    margin-left: 120px;
+  }
+/* Akhir Info Panel */
+/* Search */
+.search h1{
+  height: 39px;
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 25px;
+  color: #000000;
+  }
   
-  .sparing h2{
+  .search h2{
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #B0B0B0;
+  }
+  .search .img_3{
+    height: 40;
+  }
+/* Akhir Search */
+  /* Buton slide */
+  /* .tombol{
     font-family: Product Sans;
     font-style: normal;
     font-weight: bold;
-    color: #000000;
+    color: #1E272E;
+    background: #F1F2F6;
+    border-radius: 16px;
+
   }
 
-  .sparing h5{
+  .tombol:hover{
     font-family: Product Sans;
     font-style: normal;
-    font-weight: normal;
-    color: #B0B0B0;
-
+    font-weight: bold;
+    color: #F3001F;
+    background: rgba(243, 0, 31, 0.1);
+    border-radius: 16px;
+  } */
+/* Akhir Buton Slide */
+  .card{
+      border: none;
   }
-  .modal-dialog {
-    position:fixed;
-    top:auto;
-    right:auto;
-    left:auto;
-    bottom:0;
- }  
 
-  .tombol_sparing h3{
- 
+  
+/* Add */
+
+.add h1{
+width: 200px;
+height: 30px;
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 20px;
+color: #000000;
+}
+.add h2{
+width: 109px;
+height: 32px;
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 19px;
+color: #B0B0B0;
+
+}
+
+.tbl1{
   font-family: Product Sans;
   font-style: normal;
   font-weight: bold;
   color: #747D8C;
-
-  }
-/* modal */
-
-.modal-content hr{
-  width: 62px;
-  height: 6px;
-  background: #CED6E0;
-  border-radius: 3px;
-  }
-  
-  .modal-content h1{
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  color: #1E272E;
-  }
-  
-  .modal{
-  width: 360px;
-  height: 461px;
-  background: #FFFFFF;
-  border-radius: 24px;
-  
-  }
-  .modal-content label{
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  color: #1E272E;
-  }
-  
-  .modal-content .browser-default{
-  
-  background: #FFFFFF;
-  border: 1px solid #CED6E0;
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #E4E5EA;
   border-radius: 4px;
-  }
-  /* Akhirr Moodal */
-  .tombol_sparing{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #E4E5EA;
-    border-radius: 4px;
-  }
-
-  .conten{
-    background: linear-gradient(180deg, #A8091E 0%, #EC2028 100%);
-    border: 1px solid #F3001F;
-    box-sizing: border-box;
-    padding-bottom: 100px;
-  }
-
-  .lain a{
-    position: absolute;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
-    color: #F3001F;
-  }
-
-  .card{
-    border: none;
-  }
-
-  
-   a{
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: normal;
-    color: #F3001F;
-  }
-
-  .navbar{
-    background: #FFFFFF;
-    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 0px 0px 24px 24px; 
-  }
- 
-
-/*   
-  .modal-dialog{
-    left: 25%;
-    width: 50%;
-    background: #FFFFFF;
-    border-radius: 24px;
-    position:absolute;
-    bottom:0;
-    margin:0;
 }
-.modal-content{
-  margin-left: 60px;
-  border: none;
-  width: 360px;
-height: 461px;
+/* Akhir Add */
 
+/* Lain */
+.lain a{
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #F3001F;
 }
-.modal-body hr{
+/* Akhir Lain */
+
+/* nvbr */
   
+/* Akhir nvbr */
+
+.modal-dialog{
+  position:absolute;
+  bottom:0;
+  margin:0;
+  width:500px;
+  margin-left: 400px;
+  background: #FFFFFF;
+}
+
+.modal-dialog hr{
   width: 62px;
-  height: 6px;
-  left: 149px;
-  top: 258px;
-  background: #CED6E0;
+height: 6px;
+background: #CED6E0;
+border-radius: 3px;
 }
 
-.modal-body h1{
+.modal-body label{
+width: 99px;
+height: 17px;
+font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+color: #1E272E;
+}
 
+.placeholder{
+
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+color: #C4C4C4;
+
+}
+
+.modal-body .masukkan a{
+width: 277px;
+height: 12px;
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #F3001F;
+}
+
+.modal-dialog h1{
+width: 300px;
+height: 25px;
 font-family: Product Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
 line-height: 24px;
+text-align: center;
 color: #1E272E;
 
-} */
-  .tombol{
-   
- 
-    align-items: center;
-    width: auto;
-    height: auto;
-    background: #F1F2F6;
-    border-radius: 16px;
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: bold;
-    align-items: center;
-    color: #1E272E;
-  }
- 
-  .tombol:hover {
-    font-family: Product Sans;
-    font-style: normal;
-    font-weight: bold;
-    align-items: center;
-    color: #F3001F;
-    align-items: center;
-    background: rgba(243, 0, 31, 0.1);
-    border-radius: 16px;
-  }
+}
 
-  /* .card{
-    border: none;
-  } */
- 
+.modal-dialog h2{
+width: 272px;
+height: 66px;
 
-  .tombol1{
-    display: flex;
-    border-radius: 4px;
-    font-size: 14px;
-    font-family: Product Sans;
-    color: #747D8C;
-    padding: 20px;
-    margin: 20px;
-    width: 85px;
-    height: 58px;
-    background-color: #E4E5EA;
+font-family: Product Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+
+/* Black */
+
+color: #1E272E;
+}
+
+  /* Media Query */
+  @media (min-width: 576px) { /* Banner */
+    .konten {
+      background: linear-gradient(to bottom, #A8091E, #EC2028 );
+      border: 1px solid #F3001F;
+      box-sizing: border-box;
+    }
+    .konten img{
+      width: 35px;
+    }
+    .konten .img1{
+      border-radius: 50%; 
+      width: 100px;  
+      height: 100px;
+    }
+    .konten .img_2{
+      width: 30px;
+    }
+    .content {
+      padding-top: 25px;
+    }
+  
+    .konten h1{
+      width: 100px;
+      font-family: Product Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .konten h2{  
+      width: 160px;
+      font-family: Product Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;      
+      color: #FFFFFF;
+      
+    }
+  
+  
+    .konten h3{
+      font-family: Product Sans;
+      font-style: normal;
+      font-weight: normal;
+      margin-left: 14px;
+      color: #B0B0B0;
+    }
     
-  }
-
-
-
- /* TEst */
- 
- /* Akhir Tes */
+    .konten h4{
+      font-family: Product Sans;
+      font-style: normal;
+      font-weight: normal;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  /* Akhrir Banner */
+ }
