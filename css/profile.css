@@ -1,0 +1,102 @@
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 10px!important;
+    background: #FFFFFF;
+border: 2px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 4px;
+}
+ 
+legend.scheduler-border {
+    width:auto;
+}
+ 
+.contain {
+    background: #FFFFFF;
+    padding-top: 50px !important;
+    padding-bottom: 100px !important;
+    min-height: 350px;
+    width: 100%;
+  }
+  .konten .img1{
+      width: 100px;
+      border-radius: 50%;
+  }
+
+  .konten h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    font-feature-settings: 'salt' on;
+    color: #000000;
+  }
+
+  .konten h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-feature-settings: 'salt' on;
+    color: #000000;
+  }
+
+  .konten .btn-1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px; 
+    text-align: center;
+    color: #FFFFFF;
+    align-items: center;
+    width: 130px;
+    height: 43px;
+    background: #EC2028;
+    border-radius: 100px;
+  }
+
+  .konten1 .card-body{
+    width: 1000px;
+    height: 100px;
+    
+  } 
+
+  .konten1 .card-body .img1{
+    width: 60px; height: 60px;
+  }
+
+  .konten1 .card-body .img2{
+    width: 23px;
+    height: 23px;
+  }
+
+  .konten1 .card-body .img3{
+    margin-top: -7px;
+    
+  }
+
+  .konten1 .card-body .img4{
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+  }
+  .konten1 .card-body h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #F3001F;
+  }
+
+  .konten1 .card-body h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #B0B0B0;    
+  }

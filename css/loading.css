@@ -1,22 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    text-decoration: none !important;
-    list-style-type: none !important;
-  }
-  .konten {
-    padding-top: 50px;
-    padding-bottom: 200px;
-    background: linear-gradient(180deg, #A8091E 0%, #F3001F 83.85%);
-    border-radius: 24px;
-    margin-top: -30px;
-  }
-  
- 
-  .konten img{
-    width: 169px;
-    height: 56px;
-  
-    
-  }
-  
+.wrapper{
+  background: linear-gradient(to top,  #F3001F,#A8091E );
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

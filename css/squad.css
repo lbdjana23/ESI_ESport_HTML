@@ -179,124 +179,105 @@
     color: #747D8C;
 }
 
-/* .modal-content {
-  position: absolute;
-  width: 500px;
-  height: 230px;
-  left: 0;
-  background: #FFFFFF;
-  border-top-right-radius: 24px;
-  border-top-left-radius: 24px;
-} */
 
-/* .modal-content .sparing1{
+
+/* Sparing */
+.konten3 .conten3{
   position: fixed;
   position: absolute;
   width: 500px;
   height: auto;
   left: 0;
-  top: 200px;
-  background: #FFFFFF;
-  border-top-right-radius: 24px;
-  border-top-left-radius: 24px;
-} */
-.modal-content .conten1{
-  position: fixed;
-  position: absolute;
-  width: 500px;
-  height: auto;
-  left: 0;
-  top: 200px;
+  top: 190px;
   background: #FFFFFF;
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
 }
+.konten3  hr{
+width: 62px;
+height: 6px;
+left: 149px;
+top: 258px;
+background: #CED6E0;
+border-radius: 3px;
+}
 
-.modal-content .conten1 h1{
-  font-family: Product Sans;
+.konten3 h3{
+  font-family: 'Product Sans';
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  text-align: center;
   color: #1E272E;
 }
-
-.modal-content .conten1 h2{
-  font-family: Product Sans;
+ .konten3 label{
+  font-family: 'Product Sans';
   font-style: normal;
-  font-weight: normal;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 22px;
-  text-align: center;
+  line-height: 17px;
   color: #1E272E;
-
-}
-.modal-body hr{
-  width: 62px;
-  height: 6px;
-  left: 149px;
-  top: 477px;
-  background: #CED6E0;
-  border-radius: 3px;
 }
 
-.modal-body .btn1{
-  font-family: Product Sans;
+.konten3 .conten3 h2{
+  font-family: 'Product Sans';
   font-style: normal;
-  font-weight: bold;
+  font-size: 15px;
+  line-height: 15px;
+  color: #F3001F;
+}
+
+.konten3 .conten3 .btn1{
+  font-family: 'Product Sans';
+  font-style: normal;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
   color: #FFFFFF;
-  width: 100%;
   align-items: center;
+  padding: 12px 140px;
+  width: 100%;
+  bottom: 55px;
   background: #EC2028;
   border-radius: 4px;
 }
 
-.modal-body .btn2{
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  text-transform: uppercase;
-  color: #747D8C;
-  width: 100%;
-  background: #E4E5EA;
-  border-radius: 4px;
-}
-.modal-body h1{
-  font-family: Product Sans;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 24px;
-  color: #1E272E;
-}
-
-.modal-body h2{
-  font-family: Product Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 15px;
-line-height: 12px;
-
-color: #F3001F;
-}
-
-/* .modal-content{
+.konten3 .conten4{
   position: fixed;
   position: absolute;
   width: 500px;
   height: auto;
   left: 0;
-  top: 300px;
+  top: 190px;
   background: #FFFFFF;
   border-top-right-radius: 24px;
   border-top-left-radius: 24px;
-} */
+}
+.konten3 .conten4 h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #1E272E;
+}
+
+.konten3 .conten4 .btn2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-transform: uppercase;
+  color: #747D8C;
+  align-items: center;
+  padding: 12px 140px;
+  width: 100%;
+  height: 41px;
+  bottom: 55px;
+  background: #E4E5EA;
+  border-radius: 4px;
+}
+/* Akhir Sparing */
 
 
 .konten4 a{
@@ -317,89 +298,71 @@ border-radius: 0px 0px 24px 24px;
 width: auto;
 height: 50px;
 }
-/*  */
-.navbar .home svg {
-  width: 30px;
-}
 
-.navbar .home span{
-  color: #292A2E;
+.konten1 .modal-content {
+    position: fixed;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    left: 0;
+    top: 350px;
+    background: #FFFFFF;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
 }
+.konten1 .modal-content h3{ 
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 20px;
+  color: #1E272E;
+  }
 
-.navbar .home  svg:hover{
-  fill: #F3001F;
-}
-.navbar .home span:hover{
-  color: #F3001F;
-}
-/*  */
-.navbar .tournament svg {
-  width: 30px;
-}
-.navbar .tournament  svg:hover{
-  fill: #F3001F;
-}
+  .konten1 .modal-content h4{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #1E272E;
+  }
 
-.navbar .tournament span{
+  .konten1 .modal-content h5{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
 
-  color: #292A2E;
-}
-.navbar .tournament span:hover{
+    color: #B0B0B0;
+      }
 
-  color: #F3001F;
-}
-/*  */
-.navbar .squad svg {
-  width: 30px;
+      .konten1 .modal-content .btn_2{
+        font-family: Product Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 100%;
+        align-items: center;
+        background: #EC2028;
+        border-radius: 4px;
+      }
 
-}
+      .konten1 .modal-content .btn_1{
+          font-family: Product Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 17px;
+          text-transform: uppercase;
+          color: #747D8C;
+          width: 100%;
+          background: #E4E5EA;
+          border-radius: 4px;
+      }
 
-.navbar .squad  svg:hover{
-  fill: #F3001F;
-}
-.navbar .squad span{
-
-  color: #292A2E;
-}
-.navbar .squad span:hover{
-
-  color: #F3001F;
-}
-
-/*  */
-.navbar .leaderboard svg {
-  width: 30px;
-
-}
-
-.navbar .leaderboard  svg:hover{
-  fill: #F3001F;
-}
-.navbar .leaderboard span{
-
-  color: #292A2E;
-}
-.navbar .leaderboard span:hover{
-
-  color: #F3001F;
-}
-/*  */
-.navbar .profile svg {
-  width: 30px;
-
-}
-
-.navbar .profile  svg:hover{
-  fill: #F3001F;
-}
-.navbar .profile span{
-
-  color: #292A2E;
-}
-.navbar .profile span:hover{
-
-  color: #F3001F;
-}
+      
 /* Media Query */
 
 @media only screen and (min-width: 768px) and (max-width: 838px){
