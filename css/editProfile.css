@@ -8,6 +8,11 @@
     min-height: 350px;
     width: 100%;
   }
+
+  .konten .img2{
+    margin-top: -190px;
+    margin-left: 50px;
+  }
   .konten .img1{
       width: 100px;
       border-radius: 50%;
@@ -16,11 +21,9 @@
   .konten h1{
     font-family: 'Product Sans';
     font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 25px;
+    line-height: 25px;
     text-align: center;
-    font-feature-settings: 'salt' on;
     color: #000000;
   }
 
@@ -35,11 +38,25 @@
     color: #000000;
   }
 
-  .konten .btn-1{
+.konten1 label{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #000000;
+  }
+
+  .konten1 .form-control{
+    border: 1px solid #EC2028;
+  box-sizing: border-box;
+  border-radius: 100px;
+  }
+
+  .konten2 .btn1{
     font-family: 'Product Sans';
     font-style: normal;
     font-size: 14px;
-    line-height: 17px; 
+    line-height: 17px;
     text-align: center;
     color: #FFFFFF;
     align-items: center;
@@ -49,43 +66,4 @@
     border-radius: 100px;
   }
 
-  .konten1 .card-body{
-    width: 1000px;
-    height: 100px;
-    
-  } 
-
-  .konten1 .card-body .img1{
-    width: 60px; height: 60px;
-  }
-
-  .konten1 .card-body .img2{
-    width: 23px;
-    height: 23px;
-  }
-
-  .konten1 .card-body .img3{
-    margin-top: -7px;
-    
-  }
-
-  .konten1 .card-body .img4{
-    width: 20px;
-    height: 20px;
-    margin-left: 50px;
-  }
-  .konten1 .card-body h1{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
-    color: #F3001F;
-  }
-
-  .konten1 .card-body h2{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-size: 15px;
-    line-height: 15px;
-    color: #B0B0B0;    
-  }
+  
