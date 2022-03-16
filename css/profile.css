@@ -51,17 +51,99 @@
 }
 
 .konten1 h1{
-  font-family: 'Product Sans';
-  font-style: normal;
-  font-size: 20px;
-  line-height: 20px;
-  color: #F3001F;
+  
+font-family: 'Product Sans';
+font-style: normal;
+font-size: 25px;
+line-height: 25px;
+color: #F3001F;
 }
 
 .konten1 h2{
   font-family: 'Product Sans';
   font-style: normal;
   font-size: 15px;
-  line-height: 10px;
+  line-height: 15px;
   color: #B0B0B0;
+}
+
+.konten1 .img3{
+  width: 5px;
+  margin-top: -2px;
+}
+
+.konten2 .card{
+  background: #FFFFFF;
+border: 2px solid #C4C4C4;
+box-sizing: border-box;
+border-radius: 4px;
+}
+.konten2 .img1{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: -35px;
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+}
+.konten2 .img2{
+  width: 40px; margin-top: -50px;
+}
+
+.konten2 h1{
+  margin-top: -20px ; font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #F3001F;
+}
+
+.konten2 h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  color: #B0B0B0;
+}
+
+.konten2 h3{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #B0B0B0;
+}
+
+.konten2  .btn1{
+              width: 90px;
+              height: 35px;
+              background: #44C616;
+              border-radius: 4px; font-family: 'Product Sans';
+              font-style: normal;
+              font-size: 15px;
+              line-height: 15px;
+              color: #FFFFFF;
+}
+
+.konten2 p{
+                  font-family: 'Product Sans';
+                  font-style: normal;
+                  font-size: 23px;
+                  line-height: 25px;
+                  color: #B0B0B0;
+}
+
+.konten2 .card1 p{
+  font-family: 'Product Sans';
+                  font-style: normal;
+                  font-size: 23px;
+                  line-height: 25px;
+                  color: #B0B0B0; margin-top: 20px;
+}
+
+.konten2 .card2 p{
+  font-family: 'Product Sans';
+                font-style: normal;
+                font-size: 23px;
+                line-height: 25px;
+                color: #B0B0B0; margin-top: 20px;
 }

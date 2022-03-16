@@ -7,3 +7,10 @@
   align-items: center;
   justify-content: center;
 }
+.wrapper #loading{
+  animation: putar 2s linear  infinite;
+}
+  @keyframes putar{
+      from{transform:rotate(0deg)}
+      to{transform: rotate(360deg)}
+  }

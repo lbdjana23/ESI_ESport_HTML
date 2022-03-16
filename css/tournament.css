@@ -1,0 +1,142 @@
+input[type=text] {
+  width: 400px;
+  height: 45px;
+  background: #F1F2F6;
+  border-radius: 4px;
+  border: none;
+  background-image: url('../img/search.svg');
+  background-position: 10px 15px;
+  margin-left: -50px; 
+  background-repeat: no-repeat;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  align-items: center;
+  color: #A4B0BE;
+}
+
+.konten1 .cards{
+  width: 450px;
+height: 450px;
+background: #FFFFFF;
+border: 1px solid #CED6E0;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.konten1 .img1{
+  width: 50px;
+height: 50px;
+}
+
+.konten1 .crds h1{
+  
+font-family: 'Product Sans';
+font-style: normal;
+font-size: 25px;
+line-height: 25px;
+color: #000000;
+
+}
+
+.konten1 .crds h2{
+  font-family: 'Product Sans';
+font-style: normal;
+font-size: 20px;
+color: #B0B0B0;
+}
+
+.konten1 .cards h3{
+  font-family: 'Product Sans';
+font-style: normal;
+font-size: 11px;
+line-height: 13px;
+
+color: #000000;
+}
+
+.konten1 .crds1 .img3{
+  width: 30px;
+height: 30px;
+}
+
+.konten1 .crds1 h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.konten1 .crds1 .img4{
+  width: 30px;
+height: 30px;
+}
+
+.konten1 .crds1 h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #F3001F;
+}
+
+
+
+
+.konten1 .crds2 .img3{
+  width: 30px;
+height: 30px;
+}
+
+.konten1 .crds2 h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.konten1 .crds2 .img4{
+  width: 30px;
+height: 30px;
+}
+
+.konten1 .crds2 h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 15px;
+  line-height: 15px;
+  color: #F3001F;
+}
+
+.konten1 .btn1 {
+  align-items: center;
+  width: 200px;
+  height: 41px;
+  background: #EC2028;
+  border-radius: 4px;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+
+}
+
+.konten1 .btn2{
+  align-items: center;
+  width: 200px;
+  height: 41px;
+  background: #E4E5EA;
+  border-radius: 4px;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #747D8C;
+}
