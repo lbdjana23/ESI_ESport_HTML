@@ -31,6 +31,36 @@ body {
   text-decoration: none !important;
   list-style-type: none !important;
 }
+.loader{
+  background: linear-gradient(to top,  #F3001F,#A8091E );
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  
+}
+.loader .img2{
+  animation: putar 2s linear  infinite;
+}
+@keyframes putar{
+  from{transform:rotate(0deg)}
+  to{transform: rotate(360deg)}
+}
+
+  .disppear{
+    animation: vanish 5s forwards;
+  }
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
+
 .contain {
   border-radius: 24px !important;
   width: 360px;
