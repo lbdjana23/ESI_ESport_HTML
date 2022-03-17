@@ -15,6 +15,39 @@ input[type=text] {
     align-items: center;
     color: #A4B0BE;
   }
+  .konten3_btn{
+    height: 32px;
+    background: #F1F2F6;
+    border-radius: 16px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #1E272E;
+  }
+
+  .konten3_btn:hover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    width: auto;
+    height: 32px;
+    background: rgba(243, 0, 31, 0.1);
+    border-radius: 16px;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #F3001F;
+  }
   
   .konten1 .cards{
     width: 450px;
@@ -138,4 +171,73 @@ input[type=text] {
     font-size: 20px;
     line-height: 20px;
     color: #747D8C;
+  }
+
+  .konten2 h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    
+  }
+
+  .modal-body .filter hr{
+    width: 62px;
+height: 6px;
+background: #CED6E0;
+border-radius: 3px;
+  }
+
+  .modal-body.filter h1{
+    font-family: 'Product Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+color: #1E272E;
+  }
+
+  .modal-body .filter input[type=text1] {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 12px;
+width: 200px;
+height: 41px;
+background: #FFFFFF;
+
+border: 1px solid #CED6E0;
+box-sizing: border-box;
+border-radius: 4px;
+  }
+
+  .modal-body .filter h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    color: #EC2028;
+  }
+
+  .modal-body .filter h3{
+    
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1E272E;
+  }
+
+  .modal-body .filter label{
+    
+font-family: 'Product Sans';
+font-style: normal;
+font-size: 14px;
+line-height: 17px;
+color: #747D8C;
   }

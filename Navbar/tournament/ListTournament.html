@@ -15,85 +15,131 @@
     <title>List Tournament</title>
   </head>
   <body>
-   <div class="col-md-12">
-       
-    <div class="col-md-5 mx-auto mt-4">
-        <div class="d-flex flex-row justify-content-between">
-            <form>
+       <div class="col-md-12 mx-auto">
+
+        <div class="col-md-5 mx-auto mt-4">
+          <div class="d-flex flex-row justify-content-between">
+            <div>
+              <form>
                 <input type="text" name="search" placeholder=" " class="pl-5"> 
             </form> 
+            </div>
+              <div class="mt-2">
+                <!-- Button trigger modal -->
+                <a href="" data-toggle="modal" data-target="#filter">Filter</a>
+                  <!-- Modal -->
+                  <div class="modal fade" id="filter" tabindex="-1" aria-labelledby="filterLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content ">
+                        
+                        <div class="modal-body ">
+                          <div class="filter">
+                            <hr>
+                             <div class="d-flex flex-row">
+                               <h1>Filter</h1>
+                              <a href="" class="ml-auto"><h2  class="mt-3 ">Hapus</h2></a> 
+                             </div>
+                             <div class="mt-5">
+                              <h3>Prize Pool</h3>
+                            </div>
+                            <form>
+                              <div class="row">
+                                <div class="col">
+                                  <label for="">Minimal</label>
+                                  <input type="text1" class="form-control" >
+                                </div>
+                                <div class="col">
+                                  <Label>Maksimal</Label>
+                                  <input type="text1" class="form-control">
+                                </div>
+                              </div>
+                            </form>
+                            <div class="slider-red">
+                              <div class="slider slider-horizontal" id=""><div class="slider-track"><div class="slider-track-low" style="left: 0px; width: 25%;"></div><div class="slider-selection" style="left: 25%; width: 50%;"></div><div class="slider-track-high" style="right: 0px; width: 25%;"></div></div><div class="tooltip tooltip-main bs-tooltip-top" role="presentation" style="left: 50%;"><div class="arrow"></div><div class="tooltip-inner">-100 : 100</div></div><div class="tooltip tooltip-min bs-tooltip-top" role="presentation" style="left: 25%;"><div class="arrow"></div><div class="tooltip-inner">-100</div></div><div class="tooltip tooltip-max bs-tooltip-top" role="presentation" style="left: 75%;"><div class="arrow"></div><div class="tooltip-inner">100</div></div><div class="slider-handle min-slider-handle round" role="slider" aria-valuemin="-200" aria-valuemax="200" aria-valuenow="-100" tabindex="0" style="left: 25%;"></div><div class="slider-handle max-slider-handle round" role="slider" aria-valuemin="-200" aria-valuemax="200" aria-valuenow="100" tabindex="0" style="left: 75%;"></div></div><input type="text" value="-100,100" class="slider form-control" data-slider-min="-200" data-slider-max="200" data-slider-step="5" data-slider-value="[-100,100]" data-slider-orientation="horizontal" data-slider-selection="before" data-slider-tooltip="show" data-value="-100,100" style="display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+        <div class="">
+          <div class="col-md-9 mx-auto mt-4 mb-5 justify-content-center">
+              <div class="d-flex flex-row justify-content-between ">
+                <div class=" owl-carousel owl-theme">
+                  <button type="button" class="btn  konten3_btn ml-5">Terkait</button>
+                  <button type="button" class="btn  konten3_btn">Sedang&nbsp;Berlangsung</button>
+                  <button type="button" class="btn  konten3_btn ml-5">Gratis</button>
+                  <button type="button" class="btn  konten3_btn ml-5">Populer</button>
+                </div>
+              </div>
+          </div>
+        </div>
      
-            <a href="">Filter</a>
-          </div>
-       
-
-    </div>
-    <div class="col-md-6 mx-auto ">
-        <div class="mt-4 owl-carousel owl-theme text-center">
-          <button type="button" class="btn btn konten3_btn ml-5 pl-4">Terkait</button>
-          <button type="button" class="btn btn konten3_btn ml-1">Sedang&nbsp;Berlangsung</button>
-          <button type="button" class="btn btn konten3_btn ml-5">Gratis</button>
-          <button type="button" class="btn btn konten3_btn ml-2">Populer</button>
+        <div class="col-md-6 konten2 mx-auto mt-5">
+          <h1 class="ml-5 pl-5">Hasil Pencarian : <b>Mobile Legends</b> </h1>
         </div>
-      </div>
-
-     <div class="col-md-6 mx-auto mt-5 konten1 mb-5">
-      <div class="card cards mx-auto">
-        <img src="../../img/walikota.svg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <div class="d-flex flex-row justify-content-between">
-            <img src="../../img/mobilelegend.svg" class="img1">
-            <div class=" mr-auto ml-3  mb-3 d-flex flex-row crds">
-              <div>
-                <h1> <b>Piala Walikota Cup</b> </h1>
-                <h2> <b>Pemerintah Kota Denpasar</b> </h2>
-              </div>              
+  
+        <div class="col-md-6 mx-auto mt-5 konten1 mb-5">
+          <div class="card cards mx-auto">
+            <img src="../../img/walikota.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-between">
+                <img src="../../img/mobilelegend.svg" class="img1">
+                <div class=" mr-auto ml-3  mb-3 d-flex flex-row crds">
+                  <div>
+                    <h1> <b>Piala Walikota Cup</b> </h1>
+                    <h2> <b>Pemerintah Kota Denpasar</b> </h2>
+                  </div>              
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between crds2"> 
+                <img src="../../img/location.svg" class="img3"> <h1 class="mt-2 mr-5 pr-2 ml-3"> <b>Hotel Ayana Resort</b> </h1> <img src="../../img/people.svg" class="img4 mb-3  "> <h2 class="mt-2  mr-auto ml-3"> <b>25/50 Tim</b> </h2>          
+              </div>
+              <div class="d-flex flex-row justify-content-between crds2"> 
+                <img src="../../img/calendar-2.svg" class="img3"> <h1 class="mt-2"> <b>01 - 10 November 2021</b> </h1> <img src="../../img/dollar-circle.svg" class="img4"> <h2 class="mt-2"> <b>Rp 100.000.000</b> </h2>          
+              </div>
+              <div class="d-flex flex-row justify-content-center mt-3 ">
+                <a href=""><button type="button" class="btn btn1">DAFTAR</button></a>
+                <a href="../tournament/detailTournament.html"><button type="button" class="btn btn2 ml-3"> DETAIL</button></a>                                            
+              </div>
             </div>
           </div>
-          <div class="d-flex flex-row justify-content-between crds2"> 
-            <img src="../../img/location.svg" class="img3"> <h1 class="mt-2 mr-5 pr-2 ml-3"> <b>Hotel Ayana Resort</b> </h1> <img src="../../img/people.svg" class="img4 mb-3  "> <h2 class="mt-2  mr-auto ml-3"> <b>25/50 Tim</b> </h2>          
-          </div>
-          <div class="d-flex flex-row justify-content-between crds2"> 
-            <img src="../../img/calendar-2.svg" class="img3"> <h1 class="mt-2"> <b>01 - 10 November 2021</b> </h1> <img src="../../img/dollar-circle.svg" class="img4"> <h2 class="mt-2"> <b>Rp 100.000.000</b> </h2>          
-          </div>
-          <div class="d-flex flex-row justify-content-center mt-3 ">
-            <a href=""><button type="button" class="btn btn1">DAFTAR</button></a>
-            <a href=""><button type="button" class="btn btn2 ml-3"> DETAIL</button></a>                                            
-          </div>
         </div>
-        </div>
-      </div>
-     </div>
-
-     <div class="col-md-6 mx-auto mt-5 konten1 mb-5">
-      <div class="card cards mx-auto">
-        <img src="../../img/walikota.svg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <div class="d-flex flex-row justify-content-between">
-            <img src="../../img/mobilelegend.svg" class="img1">
-            <div class=" mr-auto ml-3  mb-3 d-flex flex-row crds">
-              <div>
-                <h1> <b>Piala Walikota Cup</b> </h1>
-                <h2> <b>Pemerintah Kota Denpasar</b> </h2>
-              </div>              
+  
+        <div class="col-md-6 mx-auto mt-5 konten1 mb-5">
+          <div class="card cards mx-auto">
+            <img src="../../img/walikota.svg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="d-flex flex-row justify-content-between">
+                <img src="../../img/mobilelegend.svg" class="img1">
+                <div class=" mr-auto ml-3  mb-3 d-flex flex-row crds">
+                  <div>
+                    <h1> <b>Piala Walikota Cup</b> </h1>
+                    <h2> <b>Pemerintah Kota Denpasar</b> </h2>
+                  </div>              
+                </div>
+              </div>
+              <div class="d-flex flex-row justify-content-between crds2"> 
+                <img src="../../img/location.svg" class="img3"> <h1 class="mt-2 mr-5 pr-2 ml-3"> <b>Hotel Ayana Resort</b> </h1> <img src="../../img/people.svg" class="img4 mb-3  "> <h2 class="mt-2  mr-auto ml-3"> <b>25/50 Tim</b> </h2>          
+              </div>
+              <div class="d-flex flex-row justify-content-between crds2"> 
+                <img src="../../img/calendar-2.svg" class="img3"> <h1 class="mt-2"> <b>01 - 10 November 2021</b> </h1> <img src="../../img/dollar-circle.svg" class="img4"> <h2 class="mt-2"> <b>Rp 100.000.000</b> </h2>          
+              </div>
+              <div class="d-flex flex-row justify-content-center mt-3 ">
+                <a href=""><button type="button" class="btn btn1">DAFTAR</button></a>
+                <a href="../tournament/detailTournament.html"><button type="button" class="btn btn2 ml-3"> DETAIL</button></a>                                            
+              </div>
             </div>
           </div>
-          <div class="d-flex flex-row justify-content-between crds2"> 
-            <img src="../../img/location.svg" class="img3"> <h1 class="mt-2 mr-5 pr-2 ml-3"> <b>Hotel Ayana Resort</b> </h1> <img src="../../img/people.svg" class="img4 mb-3  "> <h2 class="mt-2  mr-auto ml-3"> <b>25/50 Tim</b> </h2>          
-          </div>
-          <div class="d-flex flex-row justify-content-between crds2"> 
-            <img src="../../img/calendar-2.svg" class="img3"> <h1 class="mt-2"> <b>01 - 10 November 2021</b> </h1> <img src="../../img/dollar-circle.svg" class="img4"> <h2 class="mt-2"> <b>Rp 100.000.000</b> </h2>          
-          </div>
-          <div class="d-flex flex-row justify-content-center mt-3 ">
-            <a href=""><button type="button" class="btn btn1">DAFTAR</button></a>
-            <a href=""><button type="button" class="btn btn2 ml-3"> DETAIL</button></a>                                            
-          </div>
         </div>
-        </div>
-      </div>
-     </div>
 
-   </div>
+       </div>
+   
+
    
 
     
@@ -109,13 +155,13 @@
    dots: false,
    responsive: {
      0: {
-       items: 3
+       items: 2
      },
      768: {
-       items: 4
+       items: 3
      },
      1000: {
-       items: 5
+       items: 4
      }
    }
 })
