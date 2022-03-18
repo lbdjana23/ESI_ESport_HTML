@@ -4,8 +4,8 @@
 }
 
 .konten1 .card .img1{
-    width: 90px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
 }
 
 .konten .img{
@@ -32,3 +32,80 @@ color: #000000;
     color: #B0B0B0;
 
 }
+
+.konten1 .img2{
+    width: 15px;
+    height: 15px;
+}
+
+.konten1 h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FF9A03;
+}
+
+.konten1 .btn1{
+    border: 1px solid #F3001F;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #F3001F;
+}
+
+.konten1 .btn2{
+    border: 1px solid #44C616;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 15px;
+    color: #44C616;
+}
+
+
+
+
+
+
+  
+ 
+  .nav-item {
+    width: auto;
+    list-style-type: none;
+ 
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+  
+  .nav-tabs {
+    cursor: pointer;
+    border: none;
+  }
+  
+ 
+  
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+  
