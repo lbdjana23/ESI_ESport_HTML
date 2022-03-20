@@ -1,0 +1,58 @@
+input[type=text] {
+    width: 250px;
+    height: 45px;
+    background: #F1F2F6;
+    border-radius: 4px;
+    border: none;
+    background-image: url('../img/search.svg');
+    background-position: 10px 15px;
+    background-repeat: no-repeat;
+  
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+    align-items: center;
+    color: #A4B0BE;
+  }
+
+  .konten a{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #F3001F;
+  }
+  
+  .konten1 h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #292A2E;
+  }
+
+  .konten2 h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: Regular;
+    font-size: 14px;
+    line-height: 20px;
+    color: #747D8C;
+    
+  }
+
+  .konten1 .btn1{
+    border: 1px solid #F3001F;
+    box-sizing: border-box;
+    border-radius: 100px;
+
+    font-family: 'Product Sans';
+font-style: normal;
+font-weight: Reguler;
+font-size: 12px;
+line-height: 20px;
+color: #F3001F;
+  }
