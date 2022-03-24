@@ -24,97 +24,140 @@
     <title>Profile</title>
   </head>
   <body>
-   <!-- Awal Col 12 konten -->
-    <div class="col-md-12  mx-auto konten contain">
-      <!-- Awal Col md-6 mx-auto -->
+  
+    
+    <div class="col-md-12 content mx-auto konten">
       <div class="col-md-6 mx-auto">
-        <center>
-          <img src="../../img/footo1.svg" class="img1">
-        </center>
-        <div class="mt-5 mb-5">
-          <h1> <b>Charles</b> </h1>
-          <h2> <b>Moba Player</b> </h2>
-        </div>
-        <div class="d-flex flex-row justify-content-center mt-5  konten-1">
-          <a href="../../Navbar/Profile/editProfile.html"><button type="button" class="btn btn1">Edit</button></a>                                            </div>
-        </div>
-        <!-- Awal More -->
-        <div class="col-md-6 mt-4 konten1 mx-auto">
-          <div class="card">
-            <div class="card-body d-flex flex-row justify-content-between">
-              <div class="d-flex flex-row">
-                <img src="../../img/test.jpg" alt="" class="img1">
-                <div >
-                  <h1 class="mb-1 ml-4 mt-2">
-                   <b>Space Squad</b> 
-                   <img src="../../img/centangbirru.svg" alt="" class="img2">
-                  </h1>
-                  <h2 class="card-subtitle mb-1 text-muted d-flex flex-row ml-4 mt-3">
-                   <b>Squad</b> 
-                    <div>
-                      <img src="../../img/ellipse.svg" alt="" class="img3 ml-2 mr-2"> 
+        <div class="d-flex flex-row mx-auto justify-content-between mb-1 mt-3">
+          <!-- Button trigger modal -->
+                
+                <img src="../../img/edit-2.svg" alt=""class="img-1"data-toggle="modal" data-target="#profile">
+                <!-- Modal -->
+                <div class="modal fade" id="profile" tabindex="-1" aria-labelledby="profileLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                     
+                      <div class="modal-body">
+                        <hr>
+                        <div>
+                          <h1>EDIT  PROFIL ANDA</h1>
+                        </div>
+
+                        <center><img src="../../img/charles.svg" class="" alt=""></center>
+                        <img src="../../img/camera.svg " class=" img-7" alt="">
+
+                        <form>
+                          <div class="form-group">
+                            <label for="nama">Nama</label>
+                            <input type="text3" class="form-control" id="nama" placeholder="Charles">
+                          </div>
+                          <div class="d-flex flex-row justify-content-around ">
+                            <div class="d-flex flex-row  mr-2">
+                              <a href=""><button type="button" class="btn btn1"> <span>Batal</span> </button></a>
+                            </div>
+                            <div class="d-flex flex-row  ml-2">
+                              <a href=""><button type="button" class="btn btn2 "> <span>Simpan</span></button></a>                                            
+                            </div>
+                         </div>
+                        </form> 
+                      </div>
+                     
                     </div>
-                   <b> Mobile Legend</b>
-                  </h2>
+                  </div>
                 </div>
+           
+          <img src="../../img/setting.svg" alt="" class="img-1" >
+        </div>
+        <div class="col-md-6 mx-auto mt-5">
+          <center><img src="../../img/charles.svg" alt="" class="mt-5 "></center>
+          <h1 >Charles</h1>
+          <h2>0222222333 <img src="../../img/copy.svg" class="img-2 ml-2" alt=""></h2>
+        </div>
+      </div>
+      <div class="col-md-6 mx-auto mt-5 konten2 ">
+        <div class="card mx-auto">
+          <div class="card-body d-flex flex-row justify-content-between">
+            <div class="d-flex flex-row">
+              <img src="../../img/test.jpg" class="img1" />
+              <div >
+                <h3 class="card-title ml-3">Space Squad <img src="../../img/centangbirru.svg" class="imgg" alt=""></h3>
+                <h2 class="card-subtitle mb-1 text-muted  ml-3">Squad <img src="../../img/Ellipsesvg.svg" class="ml-2 mr-2"/> Mobile Legend</h2>
               </div>
-              <img src="../../img/tiga.svg" alt="" class="img4"> 
+            </div>
+            <img class="ml-2 img2" src="../../img/tiga.svg"  />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="col-md-6  konten3 mx-auto mt-4">
+          <ul class="tabs row">
+            <li data-tab-target="#Pencapaian" class="active tab pt-3">Pencapaian</li>
+            <li data-tab-target="#Teman" class="tab pt-3">Teman</li>     
+          </ul>
+        
+          <div class="tab-content">
+            <div id="Pencapaian" data-tab-content>
+              <div class=" col-md-6  d-flex flex-row konten4 mt-3 mb-3" >
+                <div class="d-flex flex-row">
+                  <a href=""><img src="../../img/logo kota bali.svg" class="img1 mt-4"></a>
+                  <div class="justify-content-between ml-3 mt-2 pt-1">
+                    <h1 >Walikota Cup 2021</h1>
+                    <h4>01 Januari 2021</h4>
+                    <h3>Juara 1</h3>
+                  </div>
+                </div>       
+              </div>            
+            </div>
+              <div id="Teman" data-tab-content class="active">
+                
+                  <center>
+                    <form>
+                        <input type="text-cari" name="search" placeholder="Temukan" class="pl-5 mx-auto"> 
+                    </form> 
+                  </center>
+                  <div class="ml-5 ">
+                    <div class="d-flex flex-row ml-5 mt-4">
+                      <a href=""><img src="../../Picture/squid-squad.svg" class="img4"></a>                
+                        <h1 class="ml-3 mt-1">Bass124214</h1>                  
+                    </div>
+                  </div>
+                  <div class="ml-5">
+                    <div class="d-flex flex-row ml-5 mt-4">
+                      <a href=""><img src="../../Picture/squid-squad.svg" class="img4"></a>                
+                        <h1 class="ml-3 mt-1">rasd231</h1>                  
+                    </div>
+                  </div>
+                  <center>
+                    <button class="btn btn-2 mr-5 mt-4 ml-5 mb-4">Dapatkan link untuk mengundang teman <img src="../../img/link.svg" class="ml-3" alt=""></button>
+                  </center>
+              </div>
+
             </div>
           </div>
         </div>
-        <!-- Akhir More -->
-
-    
-
-
-     
-   
-        <div class="col-lg-6 mx-auto mt-5 ">
-          <!-- Bottom Navbar -->
-          <nav class="navbar navbar-expand bottom justify-content-center">
-            <ul class="navbar-nav nav-justified ">
-                <li class="nav-item">
-                  <a href="../HomePage/homePage.html" class="nav-link text-center">
-                    <img src="../../img/home.svg" alt="" onmouseover="this.src='../../img/home-2.svg';" onmouseout="this.src='../../img/home.svg';"> 
-                    <span class="d-block">Home</span>
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="../tournament/tournament.html" class="nav-link text-center">
-                    <img src="../../img/cup.svg" alt="" onmouseover="this.src='../../img/cup-2.svg';" onmouseout="this.src='../../img/cup.svg';"> 
-                    <span class="d-block">Tournament</span>
-                  </a>
-                </li>
-              <li class="nav-item">
-                <a href="../Squad/squad.html" class="nav-link text-center">
-                  <img src="../../img/profile-2user.svg" alt="" onmouseover="this.src='../../img/profile-2user-2.svg';" onmouseout="this.src='../../img/profile-2user.svg';"> 
-                  <span class="d-block">Squad</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="" class="nav-link text-center">
-                  <img src="../../img/ranking.svg" alt="" onmouseover="this.src='../../img/ranking-2.svg';" onmouseout="this.src='../../img/ranking.svg';"> 
-                  <span class="d-block">Leaderboard</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="../Profile/profile.html" class="nav-link text-center">
-                  <img src="../../img/profile-circle.svg" alt="" onmouseover="this.src='../../img/profile-circle-2.svg';" onmouseout="this.src='../../img/profile-circle.svg';"> 
-                  <span class="d-block">Profile</span>
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-
+      </div>
     </div>
-    <!-- akhir Col 12 Konten -->
-    
-
   
     
     
-
+    <script>
+      const tabs = document.querySelectorAll('[data-tab-target]')
+  const tabContents = document.querySelectorAll('[data-tab-content]')
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = document.querySelector(tab.dataset.tabTarget)
+      tabContents.forEach(tabContent => {
+        tabContent.classList.remove('active')
+      })
+      tabs.forEach(tab => {
+        tab.classList.remove('active')
+      })
+      tab.classList.add('active')
+      target.classList.add('active')
+    })
+  })
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
   </body>

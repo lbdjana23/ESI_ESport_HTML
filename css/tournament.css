@@ -1,4 +1,20 @@
+input[type=text2]{
+  width:410px;
+  height: 45px;
+  background: #F1F2F6;
+  border-radius: 4px;
+  border: none;
+  background-image: url('../img/search.svg');
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
 
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A4B0BE;
+}
 
 input[type=text] {
   width:410px;
@@ -283,4 +299,71 @@ height: 15px;
   font-size: 14px;
   line-height: 20px;
   color: #000000;
+}
+.cards .btn3{
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background: #F3001F;
+  border-radius: 4px 0px 8.5px;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 8px;
+  color: #FFFFFF;
+}
+
+.konten6 .img1{
+  width: 15px;
+  height: 15px;
+}
+
+.konten6 a{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: #F3001F;
+}
+.konten6 h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E272E;
+}
+
+.konten7 .img1{
+  width: 40px;
+  height: 40px;
+}
+
+.konten7 h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E272E;
+}
+
+.konten7 h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #B0B0B0;
+}
+
+.konten5 p{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1E272E;
 }
