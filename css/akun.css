@@ -1,14 +1,14 @@
 .konten .img1{
-    width: 30px;
-height: 30px;
+    width: 15px;
+height: 15px;
 }
 
 .konten h1{
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 14px;
+    line-height: 17px;
     color: #1E272E;
 }
 
@@ -16,24 +16,47 @@ height: 30px;
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 17px;
     color: #1E272E;
 }
 
 .akun h1{
     font-family: 'Product Sans';
     font-style: normal;
-    font-weight: bold;
-    font-size: 15px;
-    line-height: 15px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
     color: #696967;
 }
-
+.prf{
+    width: 301px;
+height: 17px;
+  }
 .akun h2{
     font-family: 'Product Sans';
     font-style: normal;
-    font-size: 20px;
-    line-height: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
     color: #1E272E;
+}
+
+.konten h3{
+    
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E272E;
+}
+
+.konten h4{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F3001F;
 }
