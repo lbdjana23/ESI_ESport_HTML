@@ -29,10 +29,7 @@ height: 15px;
     line-height: 13px;
     color: #696967;
 }
-.prf{
-    width: 301px;
-height: 17px;
-  }
+
 .akun h2{
     font-family: 'Product Sans';
     font-style: normal;
@@ -59,4 +56,18 @@ height: 17px;
     font-size: 14px;
     line-height: 17px;
     color: #F3001F;
+}
+
+.setting .img1{
+    width: 19px;
+    height: 19px;
+}
+
+.setting h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1E272E;
 }
