@@ -87,6 +87,15 @@
     text-align: center;
     color: #D11117;
 }
+
+.editprofile h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E272E;
+}
   
   .tab {
     cursor: pointer;

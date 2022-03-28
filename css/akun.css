@@ -71,3 +71,18 @@ height: 15px;
     line-height: 20px;
     color: #1E272E;
 }
+
+.konten .akun3 p{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E272E;
+
+}
+
+.konten .akun3 .img2{
+    width: 15px;
+    height: 15px;
+}

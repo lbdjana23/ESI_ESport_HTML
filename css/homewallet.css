@@ -434,4 +434,58 @@ height: 24px;
     border: 1px solid #FFFFFF;
     transform: rotate(90deg);
   }
+  .kontentrf h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1E272E;
+  }
+
+  .kontentrf h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #41CC00;
+  }
+
+  .kontentrf img{
+    width: 15px;
+    height: 15px;
+  }
+  .kontentrf h3{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #BDBDBD;
+
+  }
+
+  .kontentrf h4{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #CC0000;
+  }
+
+  .kontentrf a{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    color: #F12711;
+  }
   
