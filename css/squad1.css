@@ -258,3 +258,49 @@ color: #B0B0B0;
 
     color: #000000;
   }
+  .modal-content  {
+  
+  position: absolute;
+  width: 109px;
+  height: 67px;
+  margin-left: 450px;
+  top: 258px;
+
+
+}
+  /* .dropbtn {
+  
+    border: none;
+  }
+ 
+  .dropup-content {
+    display: none;
+    position: absolute;
+    width: 109px;
+    height: 67px;
+    z-index: 1;
+    margin-left: -110px;
+    margin-top: -20px;
+    border-radius: 4px;
+    background-color: #F1F2F6;
+  }
+  
+  .dropup-content a {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1E272E;
+
+  }
+  
+  .dropup-content a:hover {background-color: #ccc}
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  } */
+  
+ .modal-content {
+  
+ }
