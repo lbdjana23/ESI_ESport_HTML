@@ -291,14 +291,14 @@ line-height: 17px;
 }
 
 .conten2 .card{
-border: 1px solid #E6E6E6;
-box-sizing: border-box;
-border-radius: 4px;
-height: 150px;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 150px;
 }
 .conten2 .img1{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
 }
 
@@ -308,13 +308,13 @@ height: 150px;
 }
 
 .conten2 .img3{
-    width: 10px;
-    height: 10px;
+    width: 3px;
+    height: 3px;
 }
 
 .conten2 .img4{
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 .conten2 h2{
@@ -326,10 +326,12 @@ height: 150px;
     color: #B0B0B0;
 }
 .conten2 h1{
+    width: 108px;
+    height: 17px;
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 17px;
     color: #EC2028;
 }
