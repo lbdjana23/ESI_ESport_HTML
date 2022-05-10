@@ -301,6 +301,70 @@ color: #B0B0B0;
     display: block;
   } */
   
- .modal-content {
-  
- }
+  .konten4 .dropdown h1 {
+    width: 100%;
+    height: 26px;
+    background-image: url('../img/dwon1.svg');
+    background-position: 100% 1px;
+    background-repeat: no-repeat;
+  }
+  .dropdown-menu{
+    background: #CED6E0;
+    border: none;
+    width: 100%;
+    height: 45px;
+  }
+
+  .downmenu1{
+    background: #CED6E0;
+    border: none;
+    width: 100%;
+    height: 45px;
+    margin-top: 10px;
+  }
+  .dropdown-menu h2{
+   
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #000000;
+  }
+
+  .dropdown-menu h4{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+  }
+
+  .downmenu p{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1E272E;
+  }
+.downmenu {
+  background: #CED6E0;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-top: 3px;
+}
+
+.downmenu h3{
+  margin-top: 3px;
+
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1E272E;
+}
