@@ -94,6 +94,207 @@
     margin-top: 10px;
     color: #B0B0B0;
   }
+  /* Awal #modalKeluar */
+  #modalKeluar .modal-content {
+    position: absolute;
+    width: 360px;
+    height: 262px;
+    top: 370px;
+    background: #FFFFFF;
+    border-radius: 24px;
+    left: 50px;
+  }
+
+ #modalKeluar  .modal-content hr{
+    width: 62px;
+    height: 6px;
+    background: #717375;
+    border-radius: 3px;
+  }
+
+  #modalKeluar .modal-content h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E272E;
+  }
+ #modalKeluar  .modal-content h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #1E272E;
+  }
+
+  #modalKeluar .modal-content .btnklr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    border: none;
+
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #747D8C;
+
+  }
+
+ #modalKeluar  .modal-content .btnklr1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  /* Akhir #modalKeluar */
+
+  /* Awal #modalcrtsquad */
+  #modalcrtsquad .modal-content{
+    width: 360px;
+    height: 366px;
+    left: 65px;
+    top: 260px;
+    background: #FFFFFF;
+    border-radius: 24px;
+  }
+
+  #modalcrtsquad .modal-content hr{
+    width: 62px;
+    height: 6px;
+    background: #CED6E0;
+    border-radius: 3px;
+  }
+
+  #modalcrtsquad .modal-content h1{
+    
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E272E;
+  }
+
+  #modalcrtsquad .modal-content label{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1E272E;
+  }
+  #modalcrtsquad .modal-content .btnar{
+    padding: 12px 14px;
+    width: 135px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #747D8C;
+    border: none;
+  }
+  #modalcrtsquad .modal-content .btnar1{
+    padding: 12px 14px;
+    width: 135px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    border: none;
+  }
+  #modalcrtsquad .modal-content a{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #EC2028;
+  }
+
+
+  /* Akhir #modalcrtsquad */
+
+  /* Awal Create Squad Success */
+  .createSquadSuccses h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #1E272E;
+  }
+  .createSquadSuccses h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #1E272E;
+  }
+  .createSquadSuccses .btncs:hover{
+    padding: 12px 14px;
+    width: 100%;
+    height: 41px;
+    background: #EC2028;    
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    }
+  .createSquadSuccses .btncs{
+    padding: 12px 14px;
+    width: 100%;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #747D8C;
+  }
+  /* Akhir Create Squad Success */
 
   .konten1 h5{
     font-family: 'Product Sans';
@@ -258,48 +459,7 @@ color: #B0B0B0;
 
     color: #000000;
   }
-  .modal-content  {
-  
-  position: absolute;
-  width: 109px;
-  height: 67px;
-  margin-left: 450px;
-  top: 258px;
-
-
-}
-  /* .dropbtn {
-  
-    border: none;
-  }
  
-  .dropup-content {
-    display: none;
-    position: absolute;
-    width: 109px;
-    height: 67px;
-    z-index: 1;
-    margin-left: -110px;
-    margin-top: -20px;
-    border-radius: 4px;
-    background-color: #F1F2F6;
-  }
-  
-  .dropup-content a {
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
-    color: #1E272E;
-
-  }
-  
-  .dropup-content a:hover {background-color: #ccc}
-  
-  .dropup:hover .dropup-content {
-    display: block;
-  } */
   
   .konten4 .dropdown h1 {
     width: 100%;
@@ -368,3 +528,53 @@ color: #B0B0B0;
   line-height: 15px;
   color: #1E272E;
 }
+
+.createsquad .lingkaran {
+  border: 2px solid #B0B0B0;
+  border-radius: 100%;
+  box-sizing: border-box;
+  width: 89px;
+  height: 89px;
+}
+
+.createsquad label{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E272E;
+
+}
+
+input[type=text]{
+  display: flex;
+  padding: 12px;
+  width: 100%;
+  height: 41px;
+  background: #FFFFFF;
+  border: 1px solid #CED6E0;
+  border-radius: 4px;
+  }
+
+  .createsquad input[placeholder]{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #e9e7e6;
+  }
+  .createsquad .simpan{
+    padding: 12px 14px;
+    width: 100%;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;  
+    color: #FFFFFF;
+  }

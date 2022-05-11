@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
 
     <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../../css/squad1.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -43,10 +45,29 @@
                           <a href="../../Navbar/Squad/detailAnggootaStatistikSquad.html"><center><img src="../../img/fatrows.svg" ></center>
                           <h1>Statistik</h1></a>
                         </div>
-                        <div class="col " >
+                        <div class="col "  data-toggle="modal" data-target="#modalKeluar">
                           <center><img src="../../img/logout.svg" ></center>
                           <h1>Keluar</h1>
                         </div>
+                        
+                        <!-- Modal -->
+                        <div class="modal " id="modalKeluar" tabindex="-1" aria-labelledby="modalKeluarLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class=" modal-content " >
+                              <div class="modal-body">
+                                <hr>
+                                <h1 align="center">Keluar</h1>
+                                <h2 align="center" class="mt-5">Apakah anda yakin ingin keluar dari <br>
+                                 <span> <b>Space Squad?</b></span></h2>
+                                 <div class="d-flex flex-row ml-2 mt-4   ">                                
+                                  <a href=""><button class="btnklr">kembali</button></a>
+                                    <a href="../Squad/notHaveSquad.html"><button class="btnklr1 ml-3">keluar</button></a>  
+                                 </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

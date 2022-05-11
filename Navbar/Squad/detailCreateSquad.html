@@ -28,39 +28,64 @@
     
     <div class="col-md-12  mx-auto createsquad">
       <div class="col-md-6 mx-auto">
-          <div class="lingkaran mt-5">
-              <center><img src="../../img/charles.svg" class="img2" alt=""></center> 
+          <div class=" mt-5">
+              <center><div class="lingkaran "></div></center> 
               <center><img src="../../img/camera.svg " class=" img3  ml-5 pl-2" style="margin-top: -55px;" alt=""></center> 
           </div>
         <form class="mt-3">
           <div class="form-group">
             <label for="namasquad">Nama Squad</label>
-            <input type="text4" class="form-control" id="namasquad" placeholder="Buat Nama Squad">
+            <input type="text" class="form-control" id="namasquad" placeholder="Buat Nama Squad">
           </div>    
-          <div class="form-group lokasi">
-            <label for="Lokasi">Lokasi</label>
-            <select class="form-control" id="Lokasi">
+          <div class="form-group">
+            <label for="lokasi">Lokasi</label>
+            <select class="form-control" id="inputLokasi">
+              <option selected disabled value="">Pilih Lokasi</option>
               <option>Denpasar</option>
-              <option>Denpasar</option>
-              <option>Denpasar</option>
-              <option>Denpasar</option>
-              <option>Denpasar</option>
+              <option>Gianyar</option>
             </select>
-          </div> 
-          <div class="form-group drop">
-            <label for="jeniskelamin">Jenis Kelamin <span>*</span></label>
-            <select type="jk" class="form-control" id="jeniskelamin">
-              <option>Laki-Laki</option>
-              <option>Perempuan</option>
-              <option>Tidak salah satunya</option>
+          </div>
+
+          <div class="form-group">
+            <label for="ks">Kategori Squad</label>
+            <select class="form-control" id="inputGender">
+              <option selected disabled value="">Pilih Kategori</option>
+              <option>Umum</option>
+              <option>Pelajar</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="email">Email <span>*</span> </label>
-            <input type="text4" class="form-control" id="email" placeholder="iswara34@gmail.com">
-          </div>  
+            <label for="ls">Leader Squad  </label>
+            <input type="text" class="form-control" id="leaderSquad" >
+          </div> 
+          <div class="form-group">
+            <label for="deskripsi">Deskripsi</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>   
         </form>   
-        <a href="../../Navbar/Squad/squad.html"><button class="btn simpan mt-5">SIMPAN</button></a>
+       <button class="btn simpan" data-toggle="modal" data-target="#modalcrtsquad">SELANJUTNYA</button>
+       <!-- Modal -->
+      <div class="modal " id="modalcrtsquad" tabindex="-1" aria-labelledby="modalcrtsquadLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+          
+            <div class="modal-body">
+              <hr>  
+            <center><img src="../../img/Approverequest.svg" alt="" class="mt-4"></center>  
+            <h1 class="mt-5">Apakah anda sudah yakin mengisi <br> formulir diatas? </h1>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input ml-3 mt-2" id="check" />
+              <label class="form-check-label  ml-5 mt-2" for="check">Saya menyetujui <a href="#">syarat</a>, <a href="#">ketentuan</a>, dan <a href="#">privasi</a> <span>ESI-Esport</span> </label>
+            </div>
+            <div class="d-flex flex-row ml-4 mt-3  ">                                
+                <a href=""><button class="btnar">KEMBALI</button></a>
+                <a href="../Squad/createSquadSuccses.html"><button class="btnar1 ml-3">KONFIRMASI</button></a>  
+             </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
       </div>
     </div>
   
