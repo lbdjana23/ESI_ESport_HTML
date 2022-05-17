@@ -71,7 +71,7 @@
 
   .info-panel{
     margin-bottom: -40px;
-    width: 500px;
+    width: 750px;
     height: 83px;
     background: #FFFFFF;
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
@@ -305,9 +305,12 @@
     
     color: #000000;
   }
-
-  input[type=cari]{
-    width: 80%;
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  input[type=cari1]{
+    width: 100%;
     height: 40px;
     border: none;
     background-image: url('../img/search.svg');
@@ -321,11 +324,11 @@
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    color: #A4B0BE;
+   
     padding: 12px 40px;
-    
+    outline: none;
+    box-shadow: none;
   } 
-
   .konten1 .btn5{
     width: auto;
     height: 40%;
@@ -401,6 +404,11 @@ color: #B0B0B0;
     font-size: 14px;
     line-height: 17px;
     color: #747D8C;
+    
+  }
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
   }
 
   .konten3 a{
@@ -578,3 +586,198 @@ input[type=text]{
     line-height: 17px;  
     color: #FFFFFF;
   }
+
+  /* Awal modalSparing */
+    #modalSparing .modal-content{
+      width: 360px;
+      height: 461px;
+      left: 77px;
+      top: 160px;
+
+      background: #FFFFFF;
+      border-radius: 24px;
+    }
+    #modalSparing .modal-body hr{
+      width: 62px;
+      height: 6px;
+
+      background: #CED6E0;
+      border-radius: 3px;
+    }
+    #modalSparing .modal-body h1{
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      color: #1E272E;
+    }
+    #modalSparing .modal-body label{
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+      color: #1E272E;
+    }
+    #modalSparing .modal-body select[type=pilih]{
+      
+        width: 100%;
+        height: 41px;
+        background: #FFFFFF;
+        border: 1px solid #CED6E0;
+        border-radius: 4px;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    #modalSparing .modal-body span{
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+
+      color: #F3001F;
+      width: 277px;
+      height: 12px;
+    }
+    #modalSparing .modal-body input[type=time]{
+
+      width: 100%;
+      height: 41px;
+      background: #FFFFFF;
+      border: 1px solid #CED6E0;
+      border-radius: 4px;
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #C4C4C4;
+
+    }
+    #modalSparing .modal-body input[type=date]{
+
+      width: 100%;
+      height: 41px;
+      background: #FFFFFF;
+      border: 1px solid #CED6E0;
+      border-radius: 4px;
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #C4C4C4;
+
+    }
+
+    #modalSparing .modal-body input[type=textid]{
+      width: 100%;
+      height: 41px;
+      background: #FFFFFF;
+      border: 1px solid #CED6E0;
+      border-radius: 4px;
+      font-family: 'Product Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #C4C4C4;    }
+
+      #modalSparing .modal-body .btn1{
+      
+        align-items: center;
+        padding: 12px 14px;
+        width: 100%;
+        height: 41px;
+        background: #EC2028;
+        border-radius: 4px;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+      #modalSparing .modal-body h2{
+        height: 66px;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: #1E272E;
+      }
+      #modalSparing .modal-body .btn2{
+        align-items: center;
+        padding: 12px 14px;
+        width: 100%;
+        height: 41px;
+        background: #E4E5EA;
+        border-radius: 4px;
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #747D8C;
+      }
+  /* Akhir modalSparing */
+
+
+  .navbar{
+    justify-content: space-around;
+    width: 100%;
+    height: 93px;
+    background: #ffffff;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 24px 24px;
+}
+.navbar .nav-item{
+    justify-content: space-around;
+}
+.navbar span{
+    justify-content: space-around;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: auto;
+    line-height: 12px;
+    text-align: center;
+
+    color: #292A2E;
+}
+.navbar .nav-item .squad.aktif {
+  width: 19px;
+height: 19px;
+background-image: url(../img/profile-2user-2.svg);
+}
+.navbar .nav-item.aktif{
+height: 2px;
+background: #F3001F;
+}
+.navbar .nav-item span.aktif{
+    justify-content: space-around;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: auto;
+    line-height: 12px;
+    text-align: center;
+
+    color:#f3001f;
+}
+
+/* Media Query  */
+
+
+ 
+/* Akhir modalSparing */

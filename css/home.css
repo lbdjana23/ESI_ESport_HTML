@@ -6,7 +6,10 @@
       justify-content: center;
     }
   }
-  
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
   /* // Medium devices (tablets, 768px and up) */
   @media (min-width: 768px) {
   }
@@ -217,7 +220,8 @@
     height: 50px;
     color: #F3001F;
     border: none;
-    
+    border: 1px solid #FFFFFF;
+
     background-position: 60px 15px;
     background-repeat: no-repeat;
 }
@@ -334,4 +338,49 @@ line-height: 17px;
     font-size: 14px;
     line-height: 17px;
     color: #EC2028;
+}
+
+.navbar{
+    justify-content: space-around;
+    height: 93px;
+    background: #ffffff;
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0px 0px 24px 24px;
+}
+
+/* .navbar .nav-item{
+    width: 100%;
+    justify-content: space-around;
+} */
+.navbar span{
+    justify-content: space-around;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: auto;
+    line-height: 12px;
+    text-align: center;
+
+    color: #292A2E;
+}
+
+.navbar .nav-item .home.aktif {
+    width: 19px;
+    height: 19px;
+    background-image: url(../img/home-2.svg);
+}
+.navbar .nav-item.aktif{
+height: 2px;
+background: #F3001F;
+}
+.navbar .nav-item span.aktif{
+    justify-content: space-around;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: auto;
+    line-height: 12px;
+    text-align: center;
+
+    color:#f3001f;
 }

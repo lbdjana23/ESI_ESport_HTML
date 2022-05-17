@@ -60,6 +60,10 @@ body {
     color: #747D8C;
     margin-top: -10%;
   }
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
   
 .content button{
   max-width: 100%;

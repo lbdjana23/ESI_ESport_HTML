@@ -15,6 +15,10 @@
     line-height: 17px;
     color: #000000;
 }
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
 .konten p{
     font-family: 'Product Sans';

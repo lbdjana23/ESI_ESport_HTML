@@ -75,8 +75,12 @@ body {
   width: 85%;
 }
 .content a {
-  color: #7d7e7f;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
   font-size: 14px;
+  line-height: 17px;
+  color: #747D8C;
 }
 .content a:hover {
   color: #000000;

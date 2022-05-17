@@ -488,4 +488,7 @@ height: 24px;
     text-align: center;
     color: #F12711;
   }
-  
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
