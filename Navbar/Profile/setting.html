@@ -4,7 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
 
@@ -42,13 +44,31 @@
                 <a href="../../Navbar/Profile/akun.html" class=" "><img src="../../img/arrow-right1.svg" alt=""class="img1"></a>  
             </div>
         </div>  
-        <div class="d-flex flex-row   mb-1">
+        <div class="d-flex flex-row   mb-1" data-bs-toggle="offcanvas" data-bs-target="#ikutidanundangteman" aria-controls="offcanvasBottom" >
             <img src="../../img/user-add.svg" alt=""class="img1 mt-4">
             <h1 class="mt-4 ml-5">Ikuti dan undang teman</h1>
             <div class="mt-4 ml-auto">
-                <a href="" class=" "><img src="../../img/arrow-right1.svg" alt=""class="img1"></a>  
+               <img src="../../img/arrow-right1.svg" alt=""class="img1">
             </div>  
         </div> 
+            <!-- Modal -->
+              <div class="offcanvas fade mx-auto" tabindex="-1" id="ikutidanundangteman" aria-labelledby="ikutidanundangtemanLabel">
+                
+                <div class="offcanvas-body ">
+                  <hr class="mx-auto">
+                  <center><h1 class="text-center">Undang Teman</h1></center>
+              <h2>Undang teman anda untuk menggunakan <br> aplikasi Esi Sport </h2>
+              <div class="form-group mt-2">
+                <input type="text" class="form-control" id="namasquad" placeholder="Https://esisport/ajdwhdyHjsuxxsfrwgty6y6...." disabled>
+              </div> 
+              <div class="d-flex flex-row  justify-content-around">                                
+                <a href=""><button class="btnbtl">Batal</button></a>
+                <a href=""><button class="btnkrmlink">Kirim Link</button></a>  
+               </div>
+                </div>
+              </div>
+                        
+             <!-- Akhir Modal -->
         <div class="d-flex flex-row   mb-1">
             <img src="../../img/lock.svg" alt=""class="img1 mt-4">
             <h1 class="mt-4 ml-5">Keamanan</h1>
@@ -80,6 +100,7 @@
      
       
     </div>
+    
 
     <div class="col-md-6 mx-auto mt-5 ">
       <!-- Bottom Navbar -->

@@ -1,3 +1,39 @@
+
+
+input[type="checkbox"] { 
+    position: relative; 
+    width: 30px;
+    height: 10px;
+     -webkit-appearance: none; 
+     width: 30px;
+height: 10px;
+
+background: #B0B0B0;
+border-radius: 5px;
+    } 
+input:checked[type="checkbox"]{
+     background-color: #FFBFBF; 
+    } 
+    input[type="checkbox"]:before { 
+        content: ''; 
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background-color: #ffffff
+        ; 
+        border-radius: 20px; 
+        transform: scale(1.1); 
+        top: -2px;
+        transition: 0.5s; 
+        
+    } 
+    input:checked[type="checkbox"]:before {
+        top: -2px;
+         left: 20px; 
+         background: #F3001F;
+        }
+
+
 .konten .img1{
     width: 15px;
 height: 15px;
@@ -56,6 +92,7 @@ height: 15px;
     font-size: 14px;
     line-height: 17px;
     color: #F3001F;
+    cursor: pointer;
 }
 
 .setting .img1{
@@ -86,6 +123,202 @@ height: 15px;
     width: 15px;
     height: 15px;
 }
+
+/* Awal Modal ikutidanundangteman */
+#ikutidanundangteman .offcanvas{
+    position: absolute;
+    width: 360px;
+    height: 226px;
+   
+    background: #FFFFFF;
+    border-radius: 24px;
+}
+/* #ikutidanundangteman .offcanvas-body{
+    
+    background: #FFFFFF;
+    border-radius: 24px;
+} */
+#ikutidanundangteman .offcanvas-body hr{
+    width: 62px;
+    height: 6px;
+    background: #B0B0B0;
+    border-radius: 3px;
+}
+#ikutidanundangteman .offcanvas-body h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    width: 95px;
+    height: 17px;
+    color: #1E272E;
+    text-align: center;
+}
+#ikutidanundangteman .offcanvas-body input[type=text]{
+    width: 294px;
+    height: 44px;
+    background: #f1f2f6;
+    border-radius: 4px;
+    background-image: url('../img/copy.svg');
+  background-position: 270px 15px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+#ikutidanundangteman .offcanvas-body input[placeholder]{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #B0B0B0;
+}
+#ikutidanundangteman .offcanvas-body h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #1E272E;
+}
+#ikutidanundangteman .offcanvas-body .btnkrmlink{
+    padding: 12px 14px;
+    border: none;
+    width: 168px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+#ikutidanundangteman .offcanvas-body .btnbtl{
+  
+    padding: 12px 14px;
+    border: none;
+    width: 110px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #747D8C;
+}
+/* Akhir Modal ikutidanundangteman */
+
+
+/* kontenPa */
+.kontenPa .card {
+    width: auto;
+    border: none;
+    height: 57px;
+    margin-top: 40px;
+}
+.kontenPa .card h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E272E;
+}
+.kontenPa .card span{
+    color: #696967;
+}
+
+.kontenPa .card h2{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #696967;
+}
+.kontenPa .card h3{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #696967;
+}
+.kontenPa  p{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #1E272E;
+
+}
+.kontenPa .card .imgtr{
+    cursor: pointer;
+height: 24px;
+}
+/* akhir kontenPa */
+/* KontenVer */
+.KontenVer   h1{
+    
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E272E;
+}
+.KontenVer h2{
+  
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #696967;
+
+}
+.KontenVer hr{
+    width: auto;
+    height: 0px;
+    border: 0.5px solid #C4C4C4;
+}
+.KontenVer input[type=radio]{
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+.KontenVer .btnnyl{
+ 
+    align-items: center;
+    padding: 12px 14px;
+    width: 100%;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #747D8C;
+}
+/* Akhir KontenVer */
+/* Awal Navbar */
 .navbar{
     justify-content: space-around;
     width: 100%;
@@ -128,3 +361,4 @@ background: #F3001F;
 
     color:#f3001f;
 }
+/* Akhir Navbar */
