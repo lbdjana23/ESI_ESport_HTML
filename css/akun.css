@@ -1,4 +1,7 @@
-
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
 input[type="checkbox"] { 
     position: relative; 
@@ -94,6 +97,9 @@ height: 15px;
     color: #F3001F;
     cursor: pointer;
 }
+.setting a{
+    text-decoration: none;
+}
 
 .setting .img1{
     width: 19px;
@@ -125,19 +131,10 @@ height: 15px;
 }
 
 /* Awal Modal ikutidanundangteman */
-#ikutidanundangteman .offcanvas{
-    position: absolute;
-    width: 360px;
-    height: 226px;
-   
-    background: #FFFFFF;
-    border-radius: 24px;
+
+[aria-labelledby="ikutidanundangtemanLabel"]{
+    width: 360px; background: #FFFFFF;border-radius: 24px; margin-left: 10%;
 }
-/* #ikutidanundangteman .offcanvas-body{
-    
-    background: #FFFFFF;
-    border-radius: 24px;
-} */
 #ikutidanundangteman .offcanvas-body hr{
     width: 62px;
     height: 6px;
@@ -254,6 +251,9 @@ height: 15px;
     line-height: 15px;
     color: #696967;
 }
+.kontenPa a{
+    text-decoration: none;
+}
 .kontenPa  p{
     font-family: 'Product Sans';
     font-style: normal;
@@ -304,8 +304,8 @@ height: 24px;
 .KontenVer .btnnyl{
  
     align-items: center;
-    padding: 12px 14px;
-    width: 100%;
+
+    outline: none;
     height: 41px;
     background: #E4E5EA;
     border-radius: 4px;
@@ -318,6 +318,196 @@ height: 24px;
     color: #747D8C;
 }
 /* Akhir KontenVer */
+/* Awal hapusakun */
+[aria-labelledby="hapusakunLabel"]{
+    width: 360px; background: #FFFFFF;border-radius: 24px; margin-left: 10%;
+}
+#hapusakun .offcanvas-body hr{
+    width: 62px;
+    height: 6px;
+    background: #CED6E0;
+    border-radius: 3px;
+}
+#hapusakun .offcanvas-body h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E272E;
+}
+#hapusakun .offcanvas-body h2{
+ 
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #1E272E;
+}
+#hapusakun .offcanvas-body span{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F3001F;
+}
+#hapusakun .offcanvas-body .alert{
+    width: 295px;
+    height: 49px;
+    background: rgba(236, 32, 40, 0.1);
+    border-radius: 4px;
+}
+#hapusakun .offcanvas-body img{
+    width: 24px;
+    height: 24px;
+}
+#hapusakun .offcanvas-body .alert span { 
+        font-family: 'Product Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color: #1E272E;
+}
+#hapusakun .offcanvas-body .btnbtl{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #747D8C;
+    align-items: center;
+    padding: 12px 14px;
+    width: 140px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    border: none;
+}
+#hapusakun .offcanvas-body .btnkrmlink{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+    padding: 12px 14px;
+    width: 140px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    border: none;
+}
+/* Akhir hapusakun */
+
+/* Awal Bantuan */
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+  }
+ 
+  .tabs li{
+    width: 150px;
+    height: 50px;
+    justify-content: space-around;
+    list-style-type: none;
+   
+    border-bottom: 0.5px solid #C4C4C4;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    text-align: center;
+    color: #696967;
+    
+  }
+
+  .tabs li.active{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    border-bottom: 1px solid #D11117;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #D11117;
+}
+
+  .tab {
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  
+/* Akhi Bantuan */
+/* Awal moodal keluarakun */
+[aria-labelledby="keluarakunLabel"]{
+    width: 360px; background: #FFFFFF;border-radius: 24px; margin-left: 10%;
+}
+#keluarakun .offcanvas-body hr{
+    width: 62px;
+    height: 6px;
+    background: #B0B0B0;
+    border-radius: 3px;
+}
+#keluarakun .offcanvas-body h1{
+   
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #1E272E;
+}
+#keluarakun .offcanvas-body .btnkmbli{
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #747D8C;
+    border: none;
+
+}
+#keluarakun .offcanvas-body .btnkeluar{
+    border: none;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+/* Akhir Modal keluarakun */
 /* Awal Navbar */
 .navbar{
     justify-content: space-around;

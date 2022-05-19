@@ -1,0 +1,53 @@
+.konten {
+    box-sizing: border-box;
+background: linear-gradient(180deg, #F90828 6.25%, rgba(121, 11, 25, 0.87) 100%, rgba(254, 7, 40, 0.87) 100%);
+}
+.konten .img1{
+    width: 195.69px;
+height: 83px;
+
+}
+
+.konten h1{
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    font-feature-settings: 'salt' on;
+    color: #FFFFFF;
+}
+
+.konten1 h3{
+    width: 310px;
+    height: 60px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 100px;
+    color: #000000;
+
+}
+.konten1 h4{
+    width: 33px;
+    height: 20px;
+    margin-top: 150px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+}
+
+.konten1 h5{
+    width: 111px;
+    height: 17px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1E272E;
+}

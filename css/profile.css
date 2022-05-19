@@ -405,8 +405,50 @@ height: 25px;
     outline: none;
     box-shadow: none;
   }
- 
-
+ /* Awal modal pencapaian */
+ [aria-labelledby="walikotacupLabel"]{
+  width: 400px;height: 1000px;background: #FFFFFF;border-radius: 24px; margin-left: 35%;
+}
+#walikotacup .offcanvas-body .card{
+  border: none;
+  margin-top: -20px;
+}
+#walikotacup .offcanvas-body h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1E272E;
+}
+#walikotacup .offcanvas-body h2{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #696967;
+}
+#walikotacup .offcanvas-body h3{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 20px;
+  color: #B0B0B0;
+}
+#walikotacup .offcanvas-body .img1{
+  width: 40px;
+  height: 40px;
+}
+#walikotacup .offcanvas-body hr{
+  width: 62px;
+  height: 6px;
+  background: #CED6E0;
+  border-radius: 3px;
+  margin-top: -10px;
+}
+/* Akhir Mdal */
   .navbar{
     justify-content: space-around;
     width: 100%;

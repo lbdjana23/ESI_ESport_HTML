@@ -23,7 +23,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <!-- <![endif] -->
-    <title>Seeting</title>
+    <title>Setting</title>
   </head>
   <body>
   
@@ -52,7 +52,7 @@
             </div>  
         </div> 
             <!-- Modal -->
-              <div class="offcanvas fade mx-auto" tabindex="-1" id="ikutidanundangteman" aria-labelledby="ikutidanundangtemanLabel">
+              <div class="offcanvas fade "  id="ikutidanundangteman" aria-labelledby="ikutidanundangtemanLabel" >
                 
                 <div class="offcanvas-body ">
                   <hr class="mx-auto">
@@ -80,22 +80,35 @@
             <img src="../../img/lifebuoy.svg" alt=""class="img1 mt-4">
             <h1 class="mt-4 ml-5">Bantuan</h1>
             <div class="mt-4 ml-auto">
-                <a href="" class=" "><img src="../../img/arrow-right1.svg" alt=""class="img1"></a>  
+                <a href="../Profile/bantuan.html" class=" "><img src="../../img/arrow-right1.svg" alt=""class="img1"></a>  
             </div>  
         </div>
         <div class="d-flex flex-row   mb-1">
             <img src="../../img/warning-2.svg" alt=""class="img1 mt-4">
             <h1 class="mt-4 ml-5">Tentang</h1>
             <div class="mt-4 ml-auto">
-                <a href="" class=" "><img src="../../img/arrow-right1.svg" alt=""class="img1"></a>  
+                <a href="../Profile/tentang.html" class=" "><img src="../../img/arrow-right1.svg" alt=""class="img1"></a>  
             </div>  
         </div>
-        <div class="d-flex flex-row   ">
-          <a href="../../Login/loginScreen.html" class="">
-            <img src="../../img/logout1.svg" alt=""class="img1 mt-4">
-            <h1 class="ml-5 pl-3" style="margin-top: -20px; margin-left: 100px;">Keluar</h1>
+        <div class="d-flex flex-row" data-bs-toggle="offcanvas" data-bs-target="#keluarakun" aria-controls="offcanvasBottom">
+          <div >
+              <img src="../../img/logout1.svg" alt=""class="img1 mt-4">
+              <h1 class="ml-5 pl-3" style="margin-top: -20px; margin-left: 100px;">Keluar</h1>
+          </div>
           </a>    
         </div>
+        <!-- <button class="btn btn-primary" type="button" >Toggle bottom offcanvas</button> -->
+          <div class="offcanvas fade" tabindex="-1" id="keluarakun" aria-labelledby="keluarakunLabel">
+            <div class="offcanvas-body">
+              <hr class="mx-auto">
+              <h1 class="text-center mx-auto">Apakah anda yakin ingin keluar dari
+               <b> <br> Charles?</b>  </h1>
+               <div class="d-flex flex-row  justify-content-around">                                
+                <a href=""><button class="btnkmbli">Kembali</button></a>
+                <a href="../../Login/loginScreen.html"><button class="btnkeluar">Keluar</button></a>  
+               </div>
+            </div>
+          </div>
     </div>
      
       
