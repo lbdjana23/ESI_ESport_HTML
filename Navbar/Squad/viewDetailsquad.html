@@ -190,43 +190,54 @@
       <!-- Akhir Leader 6 -->
    </div>
 
-   <div class="col-lg-6 mx-auto mt-5 ">
+   <div class="col-md-6 mx-auto mt-5 ">
     <!-- Bottom Navbar -->
-    <nav class="navbar navbar-expand bottom justify-content-center">
-      <ul class="navbar-nav nav-justified ">
-          <li class="nav-item">
-            <a href="../HomePage/homeHaveSquad.html" class="nav-link text-center">
-              <img src="../../img/home.svg" alt="" onmouseover="this.src='../../img/home-2.svg';" onmouseout="this.src='../../img/home.svg';"> 
-              <span class="d-block">Home</span>
+    <nav class="navbar navbar-expand bottom justify-content-around mx-auto">
+      <ul class="navbar-nav ">
+          <li class="nav-item ">
+            <a href="../HomePage/homeHaveSquad.html" class="nav-link text-center ">
+              <img src="../../img/home.svg" alt=""  > 
+              <span > <br> Home</span>
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item ">
             <a href="../tournament/tournament.html" class="nav-link text-center">
-              <img src="../../img/cup.svg" alt="" onmouseover="this.src='../../img/cup-2.svg';" onmouseout="this.src='../../img/cup.svg';"> 
-              <span class="d-block">Tournament</span>
+              <img src="../../img/cup.svg" alt="" > 
+              <span > <br> Tournament</span>
             </a>
           </li>
-        <li class="nav-item">
+        <li class="nav-item aktif">
           <a href="../Squad/squad.html" class="nav-link text-center">
-            <img src="../../img/profile-2user.svg" alt="" onmouseover="this.src='../../img/profile-2user-2.svg';" onmouseout="this.src='../../img/profile-2user.svg';"> 
-            <span class="d-block">Squad</span>
+            <img src="../../img/profile-2user.svg" alt="" class="aktif squad"> 
+            <span class="aktif"> <br> Squad</span>
           </a>
         </li>
         <li class="nav-item">
           <a href="" class="nav-link text-center">
             <img src="../../img/ranking.svg" alt="" onmouseover="this.src='../../img/ranking-2.svg';" onmouseout="this.src='../../img/ranking.svg';"> 
-            <span class="d-block">Leaderboard</span>
+            <span class=""> <br> Leaderboard</span>
           </a>
         </li>
         <li class="nav-item">
           <a href="../Profile/profile.html" class="nav-link text-center">
             <img src="../../img/profile-circle.svg" alt="" onmouseover="this.src='../../img/profile-circle-2.svg';" onmouseout="this.src='../../img/profile-circle.svg';"> 
-            <span class="d-block">Profile</span>
+            <span class=""> <br> Profile</span>
           </a>
         </li>
       </ul>
     </nav>
   </div>
+ <!-- Scrip Nav -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+      $(' li img span').click(function(){
+        $(' li img span').removeClass("aktif");
+        $(this).addClass("aktif");
+    });
+});
+</script>
+<!--  akhir  -->  
 
 
 

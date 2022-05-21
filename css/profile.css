@@ -298,7 +298,7 @@ height: 25px;
  
 
   input[type=text-cari]{
-    width: 400px;
+    
     height: 44px;
   background: #F1F2F6;
   border-radius: 4px;
@@ -401,13 +401,44 @@ height: 25px;
     line-height: 17px;
     color: #FFFFFF;
   }
-  .btn:focus {
-    outline: none;
-    box-shadow: none;
-  }
+.temukan h1{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1E272E;
+}
+.temukan .img4{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.temukan .btntmk {
+  width: 213px;
+  height: 15px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #F3001F;
+  border: none;
+  padding: 13px 14px;
+  height: 44px;
+  background: #F1F2F6;
+  border-radius: 4px;
+}
  /* Awal modal pencapaian */
  [aria-labelledby="walikotacupLabel"]{
-  width: 400px;height: 1000px;background: #FFFFFF;border-radius: 24px; margin-left: 35%;
+  background: #FFFFFF;border-radius: 24px; height:auto; position: fixed;
+  
+}
+#walikotacup .offcanvas-body hr{
+  width: 62px;
+  height: 6px;
+  background: #CED6E0;
+  border-radius: 3px;
 }
 #walikotacup .offcanvas-body .card{
   border: none;
@@ -448,6 +479,42 @@ height: 25px;
   border-radius: 3px;
   margin-top: -10px;
 }
+#walikotacup .offcanvas-body p:nth-child(1){
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #000000;
+}
+#walikotacup .offcanvas-body p:nth-child(2){
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #C4C4C4;
+}
+
+#walikotacup .offcanvas-body p:nth-child(3){
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #F3001F;
+}
+
+#walikotacup .offcanvas-body span{
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  margin-top: -25px;
+}
+#walikotacup .offcanvas-body 
 /* Akhir Mdal */
   .navbar{
     justify-content: space-around;
@@ -490,4 +557,12 @@ background: #F3001F;
     text-align: center;
 
     color:#f3001f;
+}
+input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
 }

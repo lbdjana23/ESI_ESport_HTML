@@ -94,81 +94,7 @@
     margin-top: 10px;
     color: #B0B0B0;
   }
-  /* Awal #modalKeluar */
-  #modalKeluar .modal-content {
-    position: absolute;
-    width: 360px;
-    height: 262px;
-    top: 370px;
-    background: #FFFFFF;
-    border-radius: 24px;
-    left: 50px;
-  }
-
- #modalKeluar  .modal-content hr{
-    width: 62px;
-    height: 6px;
-    background: #717375;
-    border-radius: 3px;
-  }
-
-  #modalKeluar .modal-content h1{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #1E272E;
-  }
- #modalKeluar  .modal-content h2{
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 23px;
-    color: #1E272E;
-  }
-
-  #modalKeluar .modal-content .btnklr{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 14px;
-    width: 136px;
-    height: 41px;
-    background: #E4E5EA;
-    border-radius: 4px;
-    border: none;
-
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #747D8C;
-
-  }
-
- #modalKeluar  .modal-content .btnklr1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 14px;
-    width: 136px;
-    height: 41px;
-    background: #EC2028;
-    border-radius: 4px;
-    border: none;
-    font-family: 'Product Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-  }
-  /* Akhir #modalKeluar */
+  
 
   /* Awal #modalcrtsquad */
   #modalcrtsquad .modal-content{
@@ -457,7 +383,7 @@ color: #B0B0B0;
     color: #ED8A90;
 
   }
-
+  
   .anggota h1{
     font-family: 'Product Sans';
     font-style: normal;
@@ -467,7 +393,173 @@ color: #B0B0B0;
 
     color: #000000;
   }
- 
+ /* Awal dropstrart */
+   .konten2 .dropstart .dropdown-menu{
+    width: 109px;
+    height: 67px;
+    background: #F1F2F6;
+    border-radius: 4px;
+  }
+
+  .konten2 .dropstart .dropdown-menu span{
+    width: 84px;
+    height: 16px;
+    cursor: pointer;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #1E272E;
+    margin-left: 20px;
+
+  }
+/* Awal  kickleaderLabel*/
+  [aria-labelledby="promoteleaderLabel"]{
+    background: #FFFFFF;border-radius: 24px; height:auto; position: fixed;
+    
+  }
+  #promoteleader hr{
+    width: 62px;
+    height: 6px;
+    background: #CED6E0;
+    border-radius: 3px;
+  }
+  #promoteleader h1{
+    width: 159px;
+    height: 25px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1E272E;
+  }
+  #promoteleader h2{
+    width: 286px;
+    height: 46px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #1E272E;
+  }
+  #promoteleader .btnkembali{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #747D8C;
+  }
+  #promoteleader .btnpromote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  /* AKhir  kickleaderLabel*/
+
+  /* Awal  promoteleaderLabel*/
+  [aria-labelledby="kickleaderLabel"]{
+    background: #FFFFFF;border-radius: 24px; height:auto; position: fixed;
+    
+  }
+  #kickleader hr{
+    width: 62px;
+    height: 6px;
+    background: #CED6E0;
+    border-radius: 3px;
+  }
+  #kickleader h1{
+    width: 159px;
+    height: 25px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #1E272E;
+  }
+  #kickleader h2{
+    width: 286px;
+    height: 46px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #1E272E;
+  }
+  #kickleader .btnkembali{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #E4E5EA;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #747D8C;
+  }
+  #kickleader .btnkick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 14px;
+    width: 136px;
+    height: 41px;
+    background: #EC2028;
+    border-radius: 4px;
+    border: none;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  /* Akhir promoteleaderLabel */
+
+
   
   .konten4 .dropdown h1 {
     width: 100%;
