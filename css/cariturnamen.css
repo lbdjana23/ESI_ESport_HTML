@@ -15,7 +15,9 @@ input[type=text] {
     align-items: center;
     color: #A4B0BE;
   }
-
+  a {
+    text-decoration: none;
+  }
   .konten a{
     font-family: 'Product Sans';
     font-style: normal;

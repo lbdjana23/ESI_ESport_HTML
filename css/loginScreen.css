@@ -10,6 +10,9 @@
   outline: none;
   box-shadow: none;
 }
+a {
+  text-decoration: none;
+}
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 }

@@ -97,23 +97,19 @@
   
 
   /* Awal #modalcrtsquad */
-  #modalcrtsquad .modal-content{
-    width: 360px;
-    height: 366px;
-    left: 65px;
-    top: 260px;
-    background: #FFFFFF;
-    border-radius: 24px;
+  [aria-labelledby="modalcrtsquadLabel"]{
+    background: #FFFFFF;border-radius: 24px; height:auto; position: fixed;
+    
   }
-
-  #modalcrtsquad .modal-content hr{
+  #modalcrtsquad .offcanvas-body hr{
+    margin-top: -10px;
     width: 62px;
     height: 6px;
     background: #CED6E0;
     border-radius: 3px;
   }
 
-  #modalcrtsquad .modal-content h1{
+  #modalcrtsquad .offcanvas-body h1{
     
     font-family: 'Product Sans';
     font-style: normal;
@@ -124,7 +120,7 @@
     color: #1E272E;
   }
 
-  #modalcrtsquad .modal-content label{
+  #modalcrtsquad .offcanvas-body label{
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: 400;
@@ -132,7 +128,7 @@
     line-height: 18px;
     color: #1E272E;
   }
-  #modalcrtsquad .modal-content .btnar{
+  #modalcrtsquad .offcanvas-body .btnKEMBALI{
     padding: 12px 14px;
     width: 135px;
     height: 41px;
@@ -146,7 +142,7 @@
     color: #747D8C;
     border: none;
   }
-  #modalcrtsquad .modal-content .btnar1{
+  #modalcrtsquad .offcanvas-body  .btnKONFIRMASI{
     padding: 12px 14px;
     width: 135px;
     height: 41px;
@@ -160,7 +156,7 @@
     color: #FFFFFF;
     border: none;
   }
-  #modalcrtsquad .modal-content a{
+  #modalcrtsquad .offcanvas-body a{
     font-family: 'Product Sans';
     font-style: normal;
     font-weight: 400;
@@ -559,6 +555,76 @@ color: #B0B0B0;
   }
   /* Akhir promoteleaderLabel */
 
+/* Awal  keluarsquadLabel*/
+[aria-labelledby="keluarsquadLabel"]{
+  background: #FFFFFF;border-radius: 24px; height:auto; position: fixed;
+  
+}
+#keluarsquad hr{
+  width: 62px;
+  height: 6px;
+  background: #CED6E0;
+  border-radius: 3px;
+}
+#keluarsquad h1{
+  width: 159px;
+  height: 25px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #1E272E;
+}
+#kickleader p{
+  width: 286px;
+  height: 46px;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #1E272E;
+}
+#keluarsquad .btnkembali{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 14px;
+  width: 136px;
+  height: 41px;
+  background: #E4E5EA;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #747D8C;
+}
+#keluarsquad .btnkeluar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 14px;
+  width: 136px;
+  height: 41px;
+  background: #EC2028;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/* Akhir keluarsquadLabel */
 
   
   .konten4 .dropdown h1 {

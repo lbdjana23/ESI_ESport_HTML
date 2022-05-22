@@ -7,6 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <!-- CSS -->
     <link rel="stylesheet" href="../../css/squad1.css" />
@@ -63,35 +64,32 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>   
         </form>   
-       <button class="btn simpan" data-toggle="modal" data-target="#modalcrtsquad">SELANJUTNYA</button>
-       <!-- Modal -->
-      <div class="modal " id="modalcrtsquad" tabindex="-1" aria-labelledby="modalcrtsquadLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-          
-            <div class="modal-body">
-              <hr>  
-            <center><img src="../../img/Approverequest.svg" alt="" class="mt-4"></center>  
-            <h1 class="mt-5">Apakah anda sudah yakin mengisi <br> formulir diatas? </h1>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input ml-3 mt-2" id="check" />
-              <label class="form-check-label  ml-5 mt-2" for="check">Saya menyetujui <a href="#">syarat</a>, <a href="#">ketentuan</a>, dan <a href="#">privasi</a> <span>ESI-Esport</span> </label>
-            </div>
-            <div class="d-flex flex-row ml-4 mt-3  ">                                
-                <a href=""><button class="btnar">KEMBALI</button></a>
-                <a href="../Squad/createSquadSuccses.html"><button class="btnar1 ml-3">KONFIRMASI</button></a>  
-             </div>
-            </div>
+       <button class="btn simpan" data-bs-toggle="offcanvas" data-bs-target="#modalcrtsquad" aria-controls="offcanvasBottom">SELANJUTNYA</button>
+       <div class="offcanvas offcanvas-bottom h-50" tabindex="-1" id="modalcrtsquad" aria-labelledby="modalcrtsquadLabel">
+         <div class="offcanvas-body">
+          <hr class="mx-auto ">  
+          <center><img src="../../img/Approverequest.svg" alt="" class="mt-4"></center>  
+          <h1 class="mt-5">Apakah anda sudah yakin mengisi <br> formulir diatas? </h1>
+          <div class="form-group form-check">
+            <center>
+<input type="checkbox" class="form-check-input ml-3 mt-2" id="check" />
+            <label class="form-check-label  ml-5 mt-2" for="check">Saya menyetujui <a href="#">syarat</a>, <a href="#">ketentuan</a>, dan <a href="#">privasi</a> <span>ESI-Esport</span> </label>
+            </center>
             
           </div>
-        </div>
-      </div>
+          <div class="d-flex flex-row ml-4 mt-3  mx-auto justify-content-center">                                
+              <a href=""><button class="btnKEMBALI">KEMBALI</button></a>
+              <a href="../Squad/createSquadSuccses.html"><button class="btnKONFIRMASI ml-3">KONFIRMASI</button></a>  
+          </div>
+         </div>
+       </div>
       </div>
     </div>
   
     
     
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
   </body>

@@ -1,5 +1,37 @@
 
+input[type=text1] {
+  width: 234px;
+  height: 44px;
+  background: #F1F2F6;
+  border-radius: 4px;
+  border: none;
+  background-image: url('../img/search.svg');
+  background-position: 10px 15px;
+  background-repeat: no-repeat;
+margin-left: 25%;
+  border-radius: 4px;
+    padding-left: 50px;
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+   
+    padding: 12px 40px;
+    outline: none;
+    box-shadow: none;
+}
+.filter a{
 
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  align-items: center;
+  color: #F3001F;
+
+}
 input[type=text] {
   width:410px;
   height: 45px;
@@ -23,7 +55,12 @@ input[type=text] {
     box-shadow: none;
 }
 
-
+a {
+  text-decoration: none;
+}
+a:hover{
+  text-decoration:none;
+}
 .btn:focus {
   outline: none;
   box-shadow: none;

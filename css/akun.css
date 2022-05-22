@@ -217,7 +217,9 @@ height: 15px;
 }
 /* Akhir Modal ikutidanundangteman */
 
-
+a {
+    text-decoration: none;
+  }
 /* kontenPa */
 .kontenPa .card {
     width: auto;
