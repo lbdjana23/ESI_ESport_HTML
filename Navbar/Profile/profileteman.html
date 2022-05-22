@@ -30,40 +30,30 @@
     
     <div class="col-md-12 content mx-auto konten">
       <div class="col-md-6 mx-auto">
-        <div class="d-flex flex-row mx-auto justify-content-between mb-1 mt-3">
+        <div class="d-flex flex-row mx-auto justify-content-between mb-1 mt-3 kontendropdwon">
           <!-- Button trigger modal -->       
-         <img src="../../img/edit-2.svg" alt=""class="img-1" data-bs-toggle="offcanvas" data-bs-target="#profile" aria-controls="offcanvasBottom"> 
-          <div class="offcanvas offcanvas-bottom h-50" tabindex="-1" id="profile" aria-labelledby="profileLabel">
-            <div class="offcanvas-body ">
-              <hr class="mx-auto">
-                        <div>
-                          <h1>EDIT  PROFIL ANDA</h1>
-                        </div>
-
-                        <center><img src="../../img/charles.svg" class="" alt=""></center>
-                       <center><img src="../../img/camera.svg " class=" img-7" alt=""></center> 
-
-                        <form>
-                          <div class="form-group">
-                            <center>
-                              <label for="nama" class="">Nama</label>
-                            <input type="text3" class="form-control " id="nama" placeholder="Charles">
-                            </center>
-                            
-                          </div>
-                          <div class="d-flex flex-row  justify-content-center" style="margin-top: -10px;">                                
-                            <a href=""><button class="btnbatal">Batal</button></a>
-                            <a href=""><button class="btnsimpan mr-3"> Simpan</button></a>  
-                          </div>  
-                        </form>
+         <a href="../Profile/PencarianListTeman.html"><img src="../../img/lefthitam.svg" alt=""class="img-1"></a>
+         <div class=" dropstart">
+            <img src="../../img/tiga.svg" alt="" class=" dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="dropdown-menu">  
+              <span >Blokir</span>
+              <br>
+                <br>
+              <span >Laporkan</span>
+              <br>
+              <br>
+              <span >Bagikan Profil</span>
             </div>
-          </div>   
-         <a href="../../Navbar/Profile/setting.html"><img src="../../img/setting.svg" alt="" class="img-1" ></a> 
+          </div> 
         </div>
         <div class="col-md-6 mx-auto mt-5">
           <center><img src="../../img/charles.svg" alt="" class="mt-5 "></center>
           <h1 >Charles</h1>
           <h2>0222222333 <img src="../../img/copy.svg" class="img-2 ml-2" alt=""></h2>
+        </div>
+        <div class="d-flex flex-row justify-content-center">                                
+                <a href=""><button class="btnikutiprftmn mr-3">Ikuti</button></a>
+                <a href=""><button class="btnpesanprftmn mr-2">Pesan</button></a>  
         </div>
       </div>
       <div class="col-md-6 mx-auto mt-5 konten2 ">
@@ -83,12 +73,12 @@
       <div>
         <div class="col-md-6  konten3 mx-auto mt-4">
           <ul class="tabs row">
-            <li data-tab-target="#Pencapaian" class=" tab pt-3 ">Pencapaian</li>
-            <li data-tab-target="#Teman" class="tab pt-3 active">Teman</li>     
+            <li data-tab-target="#Pencapaian" class=" tab pt-3 active">Pencapaian</li>
+            <li data-tab-target="#Teman" class="tab pt-3 ">Teman</li>     
           </ul>
 
           <div class="tab-content">
-            <div id="Pencapaian" data-tab-content >
+            <div id="Pencapaian" data-tab-content class="active">
               <div class=" col-md-6  d-flex flex-row konten4 mt-3 mb-3" >
                 <div class="d-flex flex-row" data-bs-toggle="offcanvas" data-bs-target="#walikotacup" aria-controls="offcanvasBottom">
                   <img src="../../img/logo kota bali.svg" class="img1 mt-4">
@@ -130,7 +120,7 @@
                 </div>
               </div>
             </div>
-            <div id="Teman" data-tab-content class="active" >
+            <div id="Teman" data-tab-content  >
               <div>
                 <form><input type="text-cari" name="search" placeholder="Temukan" class="pl-5 mx-auto w-100"> </form>
               </div>
